@@ -1,0 +1,169 @@
+{
+	"editor.fontWeight": "400",
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.formatOnPaste": true,
+	"editor.formatOnType": true,
+	"workbench.preferredDarkColorTheme": "Tokyo Night",
+	"workbench.preferredLightColorTheme": "Tokyo Night Light",
+	"editor.lineHeight": 1.625,
+	"terminal.integrated.fontFamily": "'CaskaydiaCove Nerd Font', 'Fira Code', Consolas, 'Courier New', monospace",
+	"terminal.integrated.fontWeight": 400,
+	"editor.fontLigatures": true,
+	"auto-rename-tag.activationOnLanguage": [
+		"html",
+		"xml",
+		"php",
+		"javascript",
+		"javascriptreact",
+		"typescriptreact"
+	],
+	"editor.wordWrap": "on",
+	"diffEditor.wordWrap": "on",
+	"git.autofetch": true,
+	"editor.fontFamily": "'Dank Mono', 'Fira Code', Consolas, 'Courier New', monospace",
+	"editor.linkedEditing": true,
+	"emmet.excludeLanguages": ["markdown"],
+	"emmet.includeLanguages": {
+		"javascript": "javascriptreact",
+		"postcss": "css",
+		"twig": "html"
+	},
+	"editor.snippetSuggestions": "top",
+	"editor.inlayHints.fontFamily": "'Dank Mono', 'Fira Code', Consolas, 'Courier New', monospace",
+	"editor.cursorStyle": "line",
+	"editor.cursorSmoothCaretAnimation": "on",
+	"editor.cursorBlinking": "smooth",
+	"editor.smoothScrolling": true,
+	"eslint.validate": [
+		"javascript",
+		"javascriptreact",
+		"typescript",
+		"typescriptreact"
+	],
+	"eslint.options": {
+		"env": {
+			"browser": true,
+			"jest/globals": true,
+			"es6": true
+		},
+		"parserOptions": {
+			"ecmaVersion": 2019,
+			"sourceType": "module",
+			"ecmaFeatures": {
+				"jsx": true
+			}
+		},
+		"rules": {
+			"no-debugger": "off"
+		}
+	},
+	"files.defaultLanguage": "{activeEditorLanguage}",
+	"editor.wordBasedSuggestions": "off",
+	"editor.suggest.localityBonus": true,
+	"editor.acceptSuggestionOnCommitCharacter": false,
+	"editor.minimap.renderCharacters": false,
+	"editor.minimap.enabled": false,
+	"editor.tokenColorCustomizations": {
+		"textMateRules": [
+			{
+				"scope": [
+					"comment",
+					"entity.name.type.class",
+					"keyword",
+					"constant",
+					"storage.modifier",
+					"storage.type.class.js",
+					"entity.other.attribute-name",
+					"entity.name.function"
+				],
+				"settings": {
+					"fontStyle": "italic"
+				}
+			},
+			{
+				"scope": [
+					"invalid",
+					"keyword.operator",
+					"constant.numeric.css",
+					"keyword.other.unit.px.css",
+					"constant.numeric.decimal.js",
+					"constant.numeric.json"
+				],
+				"settings": {
+					"fontStyle": ""
+				}
+			}
+		]
+	},
+	"terminal.integrated.cursorStyle": "line",
+	"terminal.integrated.profiles.windows": {
+		"PowerShell": {
+			"source": "PowerShell",
+			"icon": "terminal-powershell",
+			"args": ["-ExecutionPolicy", "Bypass"]
+		}
+	},
+	"eslint.format.enable": true,
+	"editor.bracketPairColorization.enabled": true,
+	"editor.guides.bracketPairs": "active",
+	"editor.codeLensFontFamily": "'Dank Mono', 'Fira Code', 'Cascadia Code', Consolas, 'Courier New', monospace",
+	"markdown.preview.lineHeight": 1.5,
+	"scm.inputFontSize": 16,
+	"files.associations": {
+		"*.js": "javascriptreact",
+		"*.tsx": "typescriptreact",
+		"*.twig": "twig"
+	},
+	"liveServer.settings.donotVerifyTags": true,
+	"liveServer.settings.donotShowInfoMsg": true,
+	"prettier.tabWidth": 4,
+	"prettier.useTabs": true,
+	"security.workspace.trust.untrustedFiles": "open",
+	"terminal.integrated.fontWeightBold": "500",
+	"terminal.integrated.defaultProfile.windows": "PowerShell",
+	"git.confirmSync": false,
+	"[html]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[twig]": {
+		"editor.defaultFormatter": "mblode.twig-language-2"
+	},
+	"editor.quickSuggestions": {
+		"strings": true
+	},
+	"symbols.hidesExplorerArrows": false,
+	"window.menuBarVisibility": "toggle",
+	"editor.renderWhitespace": "none",
+	"workbench.productIconTheme": "feather-vscode",
+	"debug.terminal.clearBeforeReusing": true,
+	"workbench.layoutControl.enabled": false,
+	"window.titleBarStyle": "custom",
+	"terminal.integrated.defaultProfile.linux": "zsh",
+	"editor.fontVariations": false,
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	"typescript.updateImportsOnFileMove.enabled": "always",
+	"git.openRepositoryInParentFolders": "never",
+	"[postcss]": {
+		"gitlens.codeLens.scopes": ["document"]
+	},
+	"[scss]": {
+		"editor.suggest.insertMode": "replace",
+		"gitlens.codeLens.scopes": ["document"]
+	},
+	"window.dialogStyle": "custom",
+	"workbench.preferredHighContrastColorTheme": "Tokyo Night",
+	"workbench.preferredHighContrastLightColorTheme": "Tokyo Night Light",
+	"editor.tabSize": 3,
+	"workbench.iconTheme": "symbols",
+	"prettier.requireConfig": true,
+	"yaml.schemas": {
+		"file:///c%3A/Users/xrish/.vscode/extensions/atlassian.atlascode-3.0.5/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+	},
+	"redhat.telemetry.enabled": true,
+	"terminal.integrated.fontSize": 15,
+	"workbench.startupEditor": "none",
+	"diffEditor.ignoreTrimWhitespace": false,
+	"workbench.colorTheme": "Tokyo Night",
+	"editor.fontSize": 15,
+	"glassit.alpha": 255
+}
