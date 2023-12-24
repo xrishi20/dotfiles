@@ -6,7 +6,7 @@
 	"workbench.preferredDarkColorTheme": "Tokyo Night",
 	"workbench.preferredLightColorTheme": "Tokyo Night Light",
 	"editor.lineHeight": 1.625,
-	"terminal.integrated.fontFamily": "'CaskaydiaCove Nerd Font', 'Fira Code', Consolas, 'Courier New', monospace",
+	"terminal.integrated.fontFamily": "'JetBrainsMono Nerd Font', Consolas, 'Courier New', monospace",
 	"terminal.integrated.fontWeight": 400,
 	"editor.fontLigatures": true,
 	"auto-rename-tag.activationOnLanguage": [
@@ -20,7 +20,7 @@
 	"editor.wordWrap": "on",
 	"diffEditor.wordWrap": "on",
 	"git.autofetch": true,
-	"editor.fontFamily": "'Dank Mono', 'Fira Code', Consolas, 'Courier New', monospace",
+	"editor.fontFamily": "'Dank Mono', 'JetBrainsMono Nerd Font', Consolas, 'Courier New', monospace",
 	"editor.linkedEditing": true,
 	"emmet.excludeLanguages": ["markdown"],
 	"emmet.includeLanguages": {
@@ -29,7 +29,7 @@
 		"twig": "html"
 	},
 	"editor.snippetSuggestions": "top",
-	"editor.inlayHints.fontFamily": "'Dank Mono', 'Fira Code', Consolas, 'Courier New', monospace",
+	"editor.inlayHints.fontFamily": "'Dank Mono', 'JetBrainsMono Nerd Font', Consolas, 'Courier New', monospace",
 	"editor.cursorStyle": "line",
 	"editor.cursorSmoothCaretAnimation": "on",
 	"editor.cursorBlinking": "smooth",
@@ -106,7 +106,7 @@
 	"eslint.format.enable": true,
 	"editor.bracketPairColorization.enabled": true,
 	"editor.guides.bracketPairs": "active",
-	"editor.codeLensFontFamily": "'Dank Mono', 'Fira Code', 'Cascadia Code', Consolas, 'Courier New', monospace",
+	"editor.codeLensFontFamily": "'Dank Mono', 'JetBrainsMono Nerd Font', Consolas, 'Courier New', monospace",
 	"markdown.preview.lineHeight": 1.5,
 	"scm.inputFontSize": 16,
 	"files.associations": {
@@ -163,7 +163,7 @@
 	"terminal.integrated.fontSize": 15,
 	"workbench.startupEditor": "none",
 	"diffEditor.ignoreTrimWhitespace": false,
-	"workbench.colorTheme": "Tokyo Night",
+	"workbench.colorTheme": "Evondev Dracula Darker Contrast",
 	"editor.fontSize": 15,
 	"glassit.alpha": 255
 }

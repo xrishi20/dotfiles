@@ -7,7 +7,7 @@ hyprland sddm xdg-desktop-portal-hyprland swaybg xdg-user-dirs xdg-user-dirs-gtk
 ### Additional Packages
 
 ```
-firefox-developer-edition visual-studio-code-bin slack-desktop ddev-bin composer docker nodejs npm yarn sddm-sugar-candy-git
+librewolf-bin vscodium-bin-marketplace slack-desktop ddev-bin composer docker nodejs npm yarn
 ```
 
 ### Nvidia
