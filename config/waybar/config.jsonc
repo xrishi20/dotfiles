@@ -1,6 +1,6 @@
 {
 	"layer": "top", // Waybar at top layer
-	"output": "eDP-1",
+	"output": "HDMI-A-1",
 	"position": "top", // Waybar position (top|bottom|left|right)
 	"gtk-layer-shell": "true",
 	"spacing": 10, // Gaps between modules (0px) Adjusted in the css
