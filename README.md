@@ -40,6 +40,15 @@ Current = sugar-candy
 CursorTheme = Qogir-white-cursors
 ```
 
+### SDDM Nvidia
+
+> sudo nano /usr/share/sddm/scripts/Xsetup </br>
+
+```
+xrandr --setprovideroutputsource modesetting NVIDIA-0
+xrandr --auto
+```
+
 ### SSH
 
 ```
