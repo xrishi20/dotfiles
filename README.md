@@ -1,7 +1,7 @@
 # Packages
 
 ```
-hyprland sddm xdg-desktop-portal-hyprland swaybg xdg-user-dirs xdg-user-dirs-gtk nano waybar git openssh kitty pfetch tofi dunst unzip gvfs-mtp android-tools android-file-transfer android-udev libmtp fish starship nautilus udev-block-notify htop polkit-gnome gnome-keyring seahorse udisks2 brightnessctl bluez bluez-utils blueman qt5-wayland qt6-wayland qt5ct pipewire wireplumber pipewire-pulse playerctl pavucontrol nm-connection-editor swayimg grim slurp wl-clipboard hyprpicker ttf-jetbrains-mono-nerd ttf-lato ttf-nerd-fonts-symbols
+hyprland sddm xdg-desktop-portal-hyprland swaybg xdg-user-dirs xdg-user-dirs-gtk nano waybar git openssh kitty pfetch tofi dunst unzip gvfs-mtp android-tools android-file-transfer android-udev libmtp zsh zsh-syntax-highlighting zsh-autocomplete-git starship nautilus udev-block-notify htop polkit-gnome gnome-keyring seahorse udisks2 brightnessctl bluez bluez-utils blueman qt5-wayland qt6-wayland qt5ct pipewire wireplumber pipewire-pulse playerctl pavucontrol nm-connection-editor swayimg grim slurp wl-clipboard hyprpicker ttf-jetbrains-mono-nerd ttf-lato ttf-nerd-fonts-symbols
 ```
 
 ### Theming
