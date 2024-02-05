@@ -1,14 +1,14 @@
 {
 	"layer": "top", // Waybar at top layer
-	"output": "",
+	"output": "eDP-1",
 	"position": "top", // Waybar position (top|bottom|left|right)
 	"gtk-layer-shell": "true",
 	"spacing": 10, // Gaps between modules (0px) Adjusted in the css
 	"margin-top": 0,
 	"margin-left": 0,
 	"margin-right": 0,
-	"modules-left": ["clock", "cpu", "temperature", "hyprland/workspaces"],
-	"modules-center": ["hyprland/window"],
+	"modules-left": ["cpu", "temperature", "hyprland/workspaces"],
+	"modules-center": ["clock"],
 	"modules-right": ["network", "backlight", "pulseaudio", "battery", "tray"],
 	"hyprland/workspaces": {
 		"format": "{icon}",

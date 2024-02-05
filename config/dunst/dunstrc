@@ -11,7 +11,7 @@
     text_icon_padding = 0
     frame_width = 3
 
-    frame_color = "#cba6f7"
+    frame_color = "#33CCFF"
     separator_color = frame
 
     font= Lato 12
@@ -40,20 +40,20 @@
     title = Dunst
     class = Dunst
 
-    corner_radius = 8
+    corner_radius = 6
     timeout = 3
 
 [urgency_low]
-    background = "#12091E"
+    background = "#000000"
     foreground = "#ffffff"
     frame_color = "#fab387"
 
 [urgency_normal]
-    background = "#12091E"
+    background = "#000000"
     foreground = "#ffffff"
-    frame_color = "#cba6f7"
+    frame_color = "#33CCFF"
 
 [urgency_critical]
-    background = "#12091E"
+    background = "#000000"
     foreground = "#FFFFFF"
     frame_color = "#f38ba8"
