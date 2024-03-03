@@ -11,7 +11,7 @@
     text_icon_padding = 0
     frame_width = 3
 
-    frame_color = "#33CCFF"
+    frame_color = "#33ccff"
     separator_color = frame
 
     font= Lato 12
@@ -51,7 +51,7 @@
 [urgency_normal]
     background = "#000000"
     foreground = "#ffffff"
-    frame_color = "#33CCFF"
+    frame_color = "#33ccff"
 
 [urgency_critical]
     background = "#000000"
