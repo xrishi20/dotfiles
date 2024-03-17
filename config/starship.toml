@@ -11,10 +11,10 @@ $python\
 $character"""
 
 [directory]
-style = "#a6e3a1"
+style = "#7aa2f7"
 
 [character]
-success_symbol = "[❯](green)"
+success_symbol = "[❯](purple)"
 error_symbol = "[❯](red)"
 vimcmd_symbol = "[❮](green)"
 
@@ -24,7 +24,7 @@ style = "bright-black"
 
 [git_status]
 format = "[[(*$conflicted$untracked$modified$staged$renamed$deleted)](218) ($ahead_behind$stashed)]($style)"
-style = "cyan"
+style = "#7dcfff"
 conflicted = "​"
 untracked = "​"
 modified = "​"

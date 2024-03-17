@@ -1,32 +1,31 @@
-@define-color base #1e1e2e;
-@define-color mantle #181825;
-@define-color crust #11111b;
-@define-color accent #a6e3a1;
+@define-color base   #1a1b26;
+@define-color mantle #24283b;
+@define-color crust  #414868;
+@define-color accent #7aa2f7;
 
-@define-color text #cdd6f4;
-@define-color subtext0 #a6adc8;
+@define-color text #B0B9E0;
+@define-color subtext0 #a9b1d6;
 @define-color subtext1 #bac2de;
 
-@define-color surface0 rgba(0,0,0,0);
-@define-color surface1 #45475a;
-@define-color surface2 #585b70;
-@define-color surface3 #394161;
+@define-color surface0 #1a1b26;
+@define-color surface1 #24283b;
+@define-color surface2 #414868;
 
 @define-color overlay0 #6c7086;
 @define-color overlay1 #7f849c;
-@define-color overlay2 #9ba3c3;
+@define-color overlay2 #9399b2;
 
 @define-color blue #89b4fa;
-@define-color lavender #b4befe;
-@define-color sapphire #74c7ec;
+@define-color lavender #7aa2f7;
+@define-color sapphire #2ac3de;
 @define-color sky #89dceb;
-@define-color teal #94e2d5;
+@define-color teal #73daca;
 @define-color green #a6e3a1;
 @define-color yellow #f9e2af;
-@define-color peach #fab387;
+@define-color peach #ff9e64;
 @define-color maroon #eba0ac;
-@define-color red #f38ba8;
-@define-color mauve #cba6f7;
+@define-color red #f7768e;
+@define-color mauve #bb9af7;
 @define-color pink #f5c2e7;
 @define-color flamingo #f2cdcd;
 @define-color rosewater #f5e0dc;
@@ -83,7 +82,7 @@
 #memory,
 #temperature,
 #disk {
-	color: @sky;
+	color: @sapphire;
 }
 
 #cpu {
@@ -111,7 +110,7 @@
 }
 
 #clock {
-	color: @teal;
+	color: @lavender;
 	margin-left: 6px;
 }
 
