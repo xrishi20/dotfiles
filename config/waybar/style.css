@@ -89,6 +89,7 @@
 	border-top-right-radius: 0;
 	border-bottom-right-radius: 0;
 	margin-right: 0px;
+	margin-left: 8px;
 }
 
 #memory {
@@ -111,7 +112,7 @@
 
 #clock {
 	color: @lavender;
-	margin-left: 6px;
+	margin-left: 0px;
 }
 
 #network {
@@ -169,7 +170,7 @@
 
 #tray {
 	color: @mauve;
-	margin-right: 6px;
+	margin-right: 8px;
 }
 
 #window {
