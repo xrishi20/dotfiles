@@ -41,7 +41,7 @@
 }
 
 #waybar {
-	background: linear-gradient(0deg, rgba(0,0,0,0), rgba(0,0,0,0));
+	background: linear-gradient(0deg, rgba(7,10,21,0.4), rgba(7,10,21,0.7));
 	color: @teal;
 }
 
