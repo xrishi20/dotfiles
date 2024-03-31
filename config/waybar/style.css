@@ -1,7 +1,7 @@
 @define-color base   #1a1b26;
 @define-color mantle #24283b;
 @define-color crust  #414868;
-@define-color accent #7aa2f7;
+@define-color accent #33ccff;
 
 @define-color text #B0B9E0;
 @define-color subtext0 #a9b1d6;
@@ -41,7 +41,7 @@
 }
 
 #waybar {
-	background: linear-gradient(0deg, rgba(7,10,21,0.4), rgba(7,10,21,0.7));
+	background: linear-gradient(0deg, rgba(7,10,21,0.3), rgba(7,10,21,0.5));
 	color: @teal;
 }
 
@@ -82,7 +82,7 @@
 #memory,
 #temperature,
 #disk {
-	color: @sapphire;
+	color: @lavender;
 }
 
 #cpu {
@@ -111,7 +111,7 @@
 }
 
 #clock {
-	color: @lavender;
+	color: @blue;
 	margin-left: 0px;
 }
 

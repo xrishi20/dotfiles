@@ -1,6 +1,6 @@
 {
 	"layer": "top", // Waybar at top layer
-	"output": "",
+	"output": "eDP-2",
 	"position": "top", // Waybar position (top|bottom|left|right)
 	"gtk-layer-shell": "true",
 	"spacing": 10, // Gaps between modules (0px) Adjusted in the css
