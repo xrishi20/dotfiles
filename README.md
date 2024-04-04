@@ -1,7 +1,7 @@
 # Packages
 
 ```
-hyprland sddm xdg-desktop-portal-hyprland hyprpaper hyprpicker git nano kitty xdg-user-dirs xdg-user-dirs-gtk waybar openssh tofi dunst unzip gvfs-mtp android-tools android-file-transfer android-udev libmtp fish starship nautilus udev-block-notify htop polkit-gnome gnome-keyring seahorse udisks2 brightnessctl bluez bluez-utils blueman qt5-wayland qt6-wayland qt5ct pipewire wireplumber pipewire-pulse playerctl pavucontrol nm-connection-editor grim slurp wl-clipboard ttf-jetbrains-mono-nerd ttf-lato ttf-nerd-fonts-symbols
+hyprland sddm xdg-desktop-portal-hyprland swaybg swayimg hyprpicker git nano kitty xdg-user-dirs xdg-user-dirs-gtk waybar openssh tofi dunst unzip gvfs-mtp android-tools android-file-transfer android-udev libmtp fish starship nautilus udev-block-notify htop polkit-gnome gnome-keyring seahorse udisks2 brightnessctl bluez bluez-utils blueman qt5-wayland qt6-wayland qt5ct pipewire wireplumber pipewire-pulse playerctl pavucontrol nm-connection-editor grim slurp wl-clipboard ttf-jetbrains-mono-nerd ttf-lato ttf-nerd-fonts-symbols
 ```
 
 ### Additional
