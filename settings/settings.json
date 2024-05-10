@@ -3,20 +3,12 @@
 	"editor.defaultFormatter": "esbenp.prettier-vscode",
 	"editor.formatOnPaste": true,
 	"editor.formatOnType": true,
-	"workbench.preferredDarkColorTheme": "Tokyo Night",
-	"workbench.preferredLightColorTheme": "Tokyo Night Light",
+	"workbench.preferredDarkColorTheme": "Kay Dark",
+	"workbench.preferredLightColorTheme": "Kay Light",
 	"editor.lineHeight": 1.625,
 	"terminal.integrated.fontFamily": "'JetBrainsMono Nerd Font', Consolas, 'Courier New', monospace",
 	"terminal.integrated.fontWeight": 400,
 	"editor.fontLigatures": true,
-	"auto-rename-tag.activationOnLanguage": [
-		"html",
-		"xml",
-		"php",
-		"javascript",
-		"javascriptreact",
-		"typescriptreact"
-	],
 	"editor.wordWrap": "on",
 	"diffEditor.wordWrap": "on",
 	"git.autofetch": true,
@@ -114,8 +106,6 @@
 		"*.tsx": "typescriptreact",
 		"*.twig": "twig"
 	},
-	"liveServer.settings.donotVerifyTags": true,
-	"liveServer.settings.donotShowInfoMsg": true,
 	"prettier.tabWidth": 4,
 	"prettier.useTabs": true,
 	"security.workspace.trust.untrustedFiles": "open",
@@ -138,32 +128,20 @@
 	"debug.terminal.clearBeforeReusing": true,
 	"workbench.layoutControl.enabled": false,
 	"window.titleBarStyle": "custom",
-	"terminal.integrated.defaultProfile.linux": "zsh",
+	"terminal.integrated.defaultProfile.linux": "fish",
 	"editor.fontVariations": false,
 	"javascript.updateImportsOnFileMove.enabled": "always",
 	"typescript.updateImportsOnFileMove.enabled": "always",
 	"git.openRepositoryInParentFolders": "never",
-	"[postcss]": {
-		"gitlens.codeLens.scopes": ["document"]
-	},
-	"[scss]": {
-		"editor.suggest.insertMode": "replace",
-		"gitlens.codeLens.scopes": ["document"]
-	},
 	"window.dialogStyle": "custom",
-	"workbench.preferredHighContrastColorTheme": "Tokyo Night",
-	"workbench.preferredHighContrastLightColorTheme": "Tokyo Night Light",
+	"workbench.preferredHighContrastColorTheme": "Kay Dark",
+	"workbench.preferredHighContrastLightColorTheme": "Kay Light",
 	"editor.tabSize": 3,
-	"workbench.iconTheme": "symbols",
 	"prettier.requireConfig": true,
-	"yaml.schemas": {
-		"file:///c%3A/Users/xrish/.vscode/extensions/atlassian.atlascode-3.0.5/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
-	},
-	"redhat.telemetry.enabled": true,
 	"terminal.integrated.fontSize": 15,
 	"workbench.startupEditor": "none",
 	"diffEditor.ignoreTrimWhitespace": false,
 	"editor.fontSize": 16,
-	"glassit.alpha": 255,
-	"workbench.colorTheme": "Tokyo Night"
+	"workbench.colorTheme": "Kay Dark",
+	"workbench.iconTheme": "symbols"
 }

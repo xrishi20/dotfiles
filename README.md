@@ -1,13 +1,13 @@
 # Packages
 
 ```
-hyprland sddm xdg-desktop-portal-hyprland swaybg swayimg hyprpicker git nano kitty xdg-user-dirs xdg-user-dirs-gtk waybar openssh tofi dunst unzip gvfs-mtp android-tools android-file-transfer android-udev libmtp fish starship nautilus udev-block-notify htop polkit-gnome gnome-keyring seahorse udisks2 brightnessctl bluez bluez-utils blueman qt5-wayland qt6-wayland qt5ct pipewire wireplumber pipewire-pulse playerctl pavucontrol nm-connection-editor grim slurp wl-clipboard ttf-jetbrains-mono-nerd ttf-lato ttf-nerd-fonts-symbols
+hyprland sddm xdg-desktop-portal-hyprland hyprpicker hypridle hyprlock git nano kitty swww xdg-user-dirs xdg-user-dirs-gtk waybar openssh tofi dunst unzip gvfs-mtp android-tools android-file-transfer android-udev libmtp fish starship nautilus udev-block-notify htop polkit-gnome gnome-keyring seahorse udisks2 brightnessctl bluez bluez-utils blueman qt5-wayland qt6-wayland qt5ct pipewire wireplumber pipewire-pulse playerctl pavucontrol nm-connection-editor grim slurp wl-clipboard ttf-jetbrains-mono-nerd ttf-lato ttf-nerd-fonts-symbols sddm-sugar-candy-git
 ```
 
-### Additional
+### Work Stuff
 
 ```
-librewolf-bin vscodium-bin-marketplace slack-desktop ddev-bin composer docker nodejs npm yarn sddm-sugar-candy-git
+librewolf-bin vscodium-bin-marketplace slack-desktop ddev-bin composer docker nodejs npm yarn
 ```
 
 ### Nvidia
@@ -40,7 +40,7 @@ Current = sugar-candy
 CursorTheme = Qogir-white-cursors
 ```
 
-### SDDM Nvidia Display
+### SDDM on Nvidia display
 
 > sudo nano /usr/share/sddm/scripts/Xsetup </br>
 
@@ -59,9 +59,9 @@ chmod 600 ~/.ssh/*
 ### Git
 
 ```
+git config --global user.name "*"
+git config --global user.email "*"
 git config --global alias.a "add ."
 git config --global alias.cm "commit -m"
 git config --global alias.puo "push -u origin"
-git config --global user.name "*"
-git config --global user.email "*"
 ```
