@@ -1,7 +1,7 @@
 @define-color base   #1a1b26;
 @define-color mantle #24283b;
 @define-color crust  #414868;
-@define-color accent #33ccff;
+@define-color accent #33CCFF;
 
 @define-color text #B0B9E0;
 @define-color subtext0 #a9b1d6;
@@ -22,8 +22,8 @@
 @define-color teal #73daca;
 @define-color green #a6e3a1;
 @define-color yellow #f9e2af;
-@define-color peach #ff9e64;
-@define-color maroon #eba0ac;
+@define-color peach #FFAB8F;
+@define-color maroon #EDBEC4;
 @define-color red #f7768e;
 @define-color mauve #bb9af7;
 @define-color pink #f5c2e7;
@@ -34,14 +34,14 @@
 	border: none;
 	border-radius: 0;
 	font-family: "Lato", "Symbols Nerd Font";
-	font-size: 16px;
+	font-size: 15px;
 	font-weight: 400;
 	min-height: 0;
 	background: transparent;
 }
 
 #waybar {
-	background: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.3));
+	background: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.2));
 	color: @teal;
 }
 
@@ -59,7 +59,7 @@
 #disk,
 #memory {
 	background-color: transparent;
-	color: @pink;
+	color: @peach;
 	border-radius: 6px;
 	padding: 0.25rem 0.5rem;
 	margin-right: 0;
@@ -70,19 +70,12 @@
 }
 
 #workspaces button {
-	min-height: 12px;
-	min-width: 12px;
+	min-height: 10px;
+	min-width: 10px;
 	margin: 4px 6px;
 	padding: 0px;
 	transition: all 0.2s cubic-bezier(0.55, -0.68, 0.48, 1.68);
 	color: @accent;
-}
-
-#cpu,
-#memory,
-#temperature,
-#disk {
-	color: @blue;
 }
 
 #cpu {
@@ -111,7 +104,6 @@
 }
 
 #clock {
-	color: @blue;
 	margin-left: 0px;
 }
 
@@ -126,7 +118,7 @@
 #pulseaudio {
 	color: @blue;
 	border-radius: 0;
-	margin-right: 0px;
+	margin-right: 10px;
 	padding: 0 5px;
 }
 
@@ -170,7 +162,7 @@
 
 #tray {
 	color: @mauve;
-	margin-right: 8px;
+	margin-right: 10px;
 }
 
 #window {
