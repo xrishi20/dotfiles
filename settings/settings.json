@@ -142,6 +142,6 @@
 	"workbench.startupEditor": "none",
 	"diffEditor.ignoreTrimWhitespace": false,
 	"editor.fontSize": 16,
-	"workbench.colorTheme": "Kay Dark",
-	"workbench.iconTheme": "symbols"
+	"workbench.iconTheme": "symbols",
+	"workbench.colorTheme": "Styx+"
 }

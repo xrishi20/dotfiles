@@ -1,0 +1,58 @@
+{
+    "layer": "bottom",
+    "position": "bottom",
+    "margin-bottom": 8,
+    "modules-left": ["clock"],
+    "modules-center": ["hyprland/workspaces"],
+    "modules-right": ["pulseaudio", "network"],
+
+    "clock": {
+        "format": "󰥔   {:%I:%M %p}",
+        "format-alt": "󰥔   {:%a, %d %b}"
+    },
+
+    "pulseaudio": {
+        "format": "{icon}  {volume}%",
+        "format-bluetooth": "󰂱  {volume}%",
+        "format-muted": "󰖁",
+        "scroll-step": 1,
+        "on-click": "pavucontrol",
+        "ignored-sinks": ["Easy Effects Sink"],
+        "format-icons": {
+            "headphone": "",
+            "hands-free": "",
+            "headset": "󰋎",
+            "phone": "",
+            "portable": "",
+            "car": "",
+            "default": ["󰖀", "󰕾"]
+        }
+    },
+
+    "network": {
+        "format": "{ifname}",
+        "format-wifi": "{icon}   {essid}",
+        "format-ethernet": "󰈀   {ipaddr}/{cidr}",
+        "format-disconnected": "󰤭   disconnected",
+        "max-length": 50,
+        "format-icons": ["󰤯", "󰤟", "󰤢", "󰤥", "󰤨"]
+    },
+    
+    "hyprland/workspaces": {
+        "format": "{icon}",
+        "on-click": "activate",
+        "format-icons": {
+            "1": "󰉊",
+            "2": "󰉊",
+            "3": "󰉊",
+            "4": "󰉊",
+            "5": "󰉊",
+            "6": "󰉊",
+            "7": "󰉊",
+            "8": "󰉊",
+            "9": "󰉊",
+            "10": "󰉊"
+        },
+        "sort-by-number": true
+    }
+}

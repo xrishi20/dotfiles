@@ -7,5 +7,4 @@ alias jctl="journalctl -p 3 -xb"
 alias update-grub="sudo grub-mkconfig -o /boot/grub/grub.cfg"
 
 set -g fish_greeting 
-
-starship init fish | source
+# starship init fish | source

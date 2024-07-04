@@ -1,171 +1,62 @@
-@define-color base   #1a1b26;
-@define-color mantle #24283b;
-@define-color crust  #414868;
-@define-color accent #33CCFF;
+@define-color bg #1d1f21;
+@define-color fg #c5c8c6;
 
-@define-color text #B0B9E0;
-@define-color subtext0 #a9b1d6;
-@define-color subtext1 #bac2de;
-
-@define-color surface0 #1a1b26;
-@define-color surface1 #24283b;
-@define-color surface2 #414868;
-
-@define-color overlay0 #6c7086;
-@define-color overlay1 #7f849c;
-@define-color overlay2 #9399b2;
-
-@define-color blue #89b4fa;
-@define-color lavender #7aa2f7;
-@define-color sapphire #2ac3de;
-@define-color sky #89dceb;
-@define-color teal #73daca;
-@define-color green #a6e3a1;
-@define-color yellow #f9e2af;
-@define-color peach #FFAB8F;
-@define-color maroon #EDBEC4;
-@define-color red #f7768e;
-@define-color mauve #bb9af7;
-@define-color pink #f5c2e7;
-@define-color flamingo #f2cdcd;
-@define-color rosewater #f5e0dc;
+@define-color light-green #81C192;
+@define-color light-blue #81a2be;
+@define-color light-olive #A0B87A;
+@define-color light-purple #CC98B7;
+@define-color light-teal #7DBAB1;
+@define-color light-orange #cc6666;
 
 * {
-	border: none;
-	border-radius: 0;
-	font-family: "Lato", "Symbols Nerd Font";
-	font-size: 15px;
-	font-weight: 400;
-	min-height: 0;
-	background: transparent;
+    font-family: 'SF Pro Text', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 50px;
 }
 
-#waybar {
-	background: linear-gradient(0deg, rgba(0,0,0,0), rgba(0,0,0,0));
-	color: @blue;
+window#waybar {
+    background-color: transparent;
+    color: @fg;
 }
 
-#workspaces,
-#window,
-#tray,
-#backlight,
-#clock,
-#battery,
-#pulseaudio,
+#workspaces button.active {
+    background-color: @light-olive;
+    color: @bg;
+}
+
+#workspaces {
+    background-color: @bg;
+    margin-left: 6px;
+}
+
+.modules-left {
+    margin-left: 8px;    
+}
+
+.modules-right {
+    margin-right: 8px;    
+}
+
 #network,
-#cpu,
-#memory,
-#temperature,
-#disk,
-#memory {
-	background-color: transparent;
-	color: @blue;
-	border-radius: 6px;
-	padding: 0.25rem 0.5rem;
-	margin-right: 0;
-}
-
-#workspaces * {
-	font-size: 20px;
-}
-
-#workspaces button {
-	min-height: 10px;
-	min-width: 10px;
-	margin: 4px 6px;
-	padding: 0px;
-	transition: all 0.2s cubic-bezier(0.55, -0.68, 0.48, 1.68);
-	color: @accent;
-}
-
-#cpu {
-	border-top-right-radius: 0;
-	border-bottom-right-radius: 0;
-	margin-right: 0px;
-	margin-left: 8px;
-}
-
-#memory {
-	border-radius: 0px;
-	margin-right: 0px;
-}
-
-#temperature {
-	border-radius: 0px;
-	margin-right: 0px;
-}
-
-#disk {
-	color: @peach;
-	border-top-left-radius: 0;
-	border-bottom-left-radius: 0;
-	padding-left: 5px;
-	padding-right: 1rem;
+#pulseaudio {
+    color: @light-blue;
+    background-color: @bg;
+    margin: 0 6px 0 6px;
+    padding: 0 15px 0 15px; /* top, right, bottom, left */
 }
 
 #clock {
-	margin-left: 0px;
-	color: @accent;
+    color: @light-green;
+    background-color: @bg;
+    margin: 0 6px 0 0;
+    padding: 0 15px 0 15px;
 }
 
 #network {
-	color: @sky;
-	border-top-right-radius: 0;
-	border-bottom-right-radius: 0;
-	margin-right: 0px;
-	padding: 0 5px;
+    color: @light-blue;
 }
 
 #pulseaudio {
-	color: @blue;
-	border-radius: 0;
-	margin-right: 10px;
-	padding: 0 5px;
-}
-
-#backlight {
-	color: @flamingo;
-	border-radius: 0;
-	margin-right: 0px;
-	padding: 0 5px;
-}
-
-#battery {
-	color: @teal;
-	border-radius: 0;
-	margin-right: 0;
-	padding: 0 5px;
-}
-
-#battery.charging {
-	color: @green;
-}
-
-#battery.warning:not(.charging) {
-	color: @maroon;
-}
-
-#battery.critical:not(.charging) {
-	color: @red;
-	animation-name: blink;
-	animation-duration: 1s;
-	animation-timing-function: linear;
-	animation-iteration-count: infinite;
-	animation-direction: alternate;
-}
-
-@keyframes blink {
-	to {
-		background: @red;
-		color: @surface1;
-	}
-}
-
-#tray {
-	color: @mauve;
-	margin-right: 10px;
-}
-
-#window {
-	margin: 0 200px;
+    color: @light-teal;
 }
