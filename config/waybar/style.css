@@ -9,7 +9,7 @@
 @define-color light-orange #cc6666;
 
 * {
-    font-family: 'SF Pro Text', sans-serif;
+    font-family: 'SF Pro Text', 'Lato', sans-serif;
     font-weight: bold;
     font-size: 15px;
     border-radius: 50px;
