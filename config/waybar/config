@@ -2,13 +2,16 @@
     "layer": "bottom",
     "position": "bottom",
     "margin-bottom": 8,
-    "modules-left": ["clock"],
+    "modules-left": ["clock", "clock#date"],
     "modules-center": ["hyprland/workspaces"],
-    "modules-right": ["pulseaudio", "network"],
+    "modules-right": ["network", "pulseaudio", "temperature"],
 
     "clock": {
-        "format": "󰥔   {:%I:%M %p}",
-        "format-alt": "󰥔   {:%a, %d %b}"
+        "format": "󰥔   {:%I:%M %p}"
+    },
+
+    "clock#date": {
+        "format": "   {:%a, %d %b}"
     },
 
     "pulseaudio": {
@@ -42,17 +45,17 @@
         "format": "{icon}",
         "on-click": "activate",
         "format-icons": {
-            "1": "󰉊",
-            "2": "󰉊",
-            "3": "󰉊",
-            "4": "󰉊",
-            "5": "󰉊",
-            "6": "󰉊",
-            "7": "󰉊",
-            "8": "󰉊",
-            "9": "󰉊",
-            "10": "󰉊"
-        },
-        "sort-by-number": true
-    }
+			"active": "󰉊",
+			"default": "󰉊"
+		}
+    },
+
+	"temperature": {
+        "hwmon-path": "/sys/class/hwmon/hwmon2/temp1_input",
+		"format": "{icon} {temperatureC}°C",
+		"format-icons": [" ", " ", " "],
+		"tooltip": true,
+		"on-click": "kitty --start-as=fullscreen --title all_is_kitty sh -c 'htop'",
+		"interval": 2
+	}
 }

@@ -6,10 +6,10 @@
 @define-color light-olive #A0B87A;
 @define-color light-purple #CC98B7;
 @define-color light-teal #7DBAB1;
-@define-color light-orange #cc6666;
+@define-color light-red #cc6666;
 
 * {
-    font-family: 'SF Pro Text', 'Lato', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-weight: bold;
     font-size: 15px;
     border-radius: 50px;
@@ -48,6 +48,13 @@ window#waybar {
 
 #clock {
     color: @light-green;
+    background-color: @bg;
+    margin: 0 6px 0 0;
+    padding: 0 15px 0 15px;
+}
+
+#temperature {
+    color: @light-olive;
     background-color: @bg;
     margin: 0 6px 0 0;
     padding: 0 15px 0 15px;
