@@ -6,13 +6,13 @@
 	"workbench.preferredDarkColorTheme": "Kay Dark",
 	"workbench.preferredLightColorTheme": "Kay Light",
 	"editor.lineHeight": 1.625,
-	"terminal.integrated.fontFamily": "'JetBrainsMono Nerd Font', Consolas, 'Courier New', monospace",
+	"terminal.integrated.fontFamily": "'SF Mono', Consolas, 'Courier New', monospace",
 	"terminal.integrated.fontWeight": 400,
 	"editor.fontLigatures": true,
 	"editor.wordWrap": "on",
 	"diffEditor.wordWrap": "on",
 	"git.autofetch": true,
-	"editor.fontFamily": "'Dank Mono', 'Iosevka Nerd Font', Consolas, 'Courier New', monospace",
+	"editor.fontFamily": "'Dank Mono', 'SF Mono', Consolas, 'Courier New', monospace",
 	"editor.linkedEditing": true,
 	"emmet.excludeLanguages": ["markdown"],
 	"emmet.includeLanguages": {
@@ -21,7 +21,7 @@
 		"twig": "html"
 	},
 	"editor.snippetSuggestions": "top",
-	"editor.inlayHints.fontFamily": "'Dank Mono', 'Iosevka Nerd Font', Consolas, 'Courier New', monospace",
+	"editor.inlayHints.fontFamily": "'Dank Mono', 'SF Mono', Consolas, 'Courier New', monospace",
 	"editor.cursorStyle": "line",
 	"editor.cursorSmoothCaretAnimation": "on",
 	"editor.cursorBlinking": "smooth",
@@ -98,7 +98,7 @@
 	"eslint.format.enable": true,
 	"editor.bracketPairColorization.enabled": true,
 	"editor.guides.bracketPairs": "active",
-	"editor.codeLensFontFamily": "'Dank Mono', 'Iosevka Nerd Font', Consolas, 'Courier New', monospace",
+	"editor.codeLensFontFamily": "'Dank Mono', 'SF Mono', Consolas, 'Courier New', monospace",
 	"markdown.preview.lineHeight": 1.5,
 	"scm.inputFontSize": 16,
 	"files.associations": {
@@ -124,7 +124,6 @@
 	"symbols.hidesExplorerArrows": false,
 	"window.menuBarVisibility": "toggle",
 	"editor.renderWhitespace": "none",
-	"workbench.productIconTheme": "feather-vscode",
 	"debug.terminal.clearBeforeReusing": true,
 	"workbench.layoutControl.enabled": false,
 	"window.titleBarStyle": "custom",
@@ -143,5 +142,5 @@
 	"diffEditor.ignoreTrimWhitespace": false,
 	"editor.fontSize": 16,
 	"workbench.iconTheme": "symbols",
-	"workbench.colorTheme": "Orbi Blue"
+	"workbench.colorTheme": "Kay Dark"
 }

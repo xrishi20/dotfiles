@@ -1,16 +1,9 @@
-@define-color bg #1d1f21;
-@define-color fg #c5c8c6;
-
-@define-color light-green #81C192;
-@define-color light-blue #81a2be;
-@define-color light-olive #A0B87A;
-@define-color light-purple #CC98B7;
-@define-color light-teal #7DBAB1;
-@define-color light-red #cc6666;
+@define-color bg #000000;
+@define-color fg #33CCFF;
 
 * {
-    font-family: 'Lato', sans-serif;
-    font-weight: bold;
+    font-family: 'SF Pro Display', 'Symbols Nerd Font', sans-serif;
+    font-weight: 600;
     font-size: 15px;
     border-radius: 50px;
 }
@@ -21,13 +14,20 @@ window#waybar {
 }
 
 #workspaces button.active {
-    background-color: @light-olive;
+    background-color: @fg;
     color: @bg;
 }
 
 #workspaces {
     background-color: @bg;
     margin-left: 6px;
+}
+
+#tray {
+    color: @fg;
+    background-color: @bg;
+    margin: 0 6px 0 0;
+    padding: 0 15px 0 15px;
 }
 
 .modules-left {
@@ -40,30 +40,30 @@ window#waybar {
 
 #network,
 #pulseaudio {
-    color: @light-blue;
+    color: @fg;
     background-color: @bg;
     margin: 0 6px 0 6px;
     padding: 0 15px 0 15px; /* top, right, bottom, left */
 }
 
 #clock {
-    color: @light-green;
+    color: @fg;
     background-color: @bg;
     margin: 0 6px 0 0;
     padding: 0 15px 0 15px;
 }
 
 #temperature {
-    color: @light-olive;
+    color: @fg;
     background-color: @bg;
     margin: 0 6px 0 0;
     padding: 0 15px 0 15px;
 }
 
 #network {
-    color: @light-blue;
+    color: @fg;
 }
 
 #pulseaudio {
-    color: @light-teal;
+    color: @fg;
 }

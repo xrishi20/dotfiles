@@ -11,10 +11,10 @@
     text_icon_padding = 0
     frame_width = 4
 
-    frame_color = "#A0B87A"
+    frame_color = "#33CCFF"
     separator_color = frame
 
-    font= Lato 12
+    font= SF Pro Display 12
 
     sort = yes
     idle_threshold = 120
@@ -40,8 +40,8 @@
     title = Dunst
     class = Dunst
 
-    corner_radius = 8
-    timeout = 4
+    corner_radius = 6
+    timeout = 3
 
 [urgency_low]
     background = "#000000E6"
@@ -51,7 +51,7 @@
 [urgency_normal]
     background = "#000000E6"
     foreground = "#ffffff"
-    frame_color = "#A0B87A"
+    frame_color = "#33CCFF"
 
 [urgency_critical]
     background = "#000000E6"

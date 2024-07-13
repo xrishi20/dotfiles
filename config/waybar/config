@@ -4,7 +4,11 @@
     "margin-bottom": 8,
     "modules-left": ["clock", "clock#date"],
     "modules-center": ["hyprland/workspaces"],
-    "modules-right": ["network", "pulseaudio", "temperature"],
+    "modules-right": ["network", "pulseaudio", "temperature", "tray"],
+
+    "tray": {
+        "spacing": 10
+    },
 
     "clock": {
         "format": "󰥔   {:%I:%M %p}"
@@ -45,8 +49,8 @@
         "format": "{icon}",
         "on-click": "activate",
         "format-icons": {
-			"active": "󰉊",
-			"default": "󰉊"
+			"active": "󰊠",
+			"default": "󱙝"
 		}
     },
 
