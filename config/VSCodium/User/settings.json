@@ -113,7 +113,7 @@
 	"terminal.integrated.defaultProfile.windows": "PowerShell",
 	"git.confirmSync": false,
 	"[html]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode"
+		"editor.defaultFormatter": "vscode.emmet"
 	},
 	"[twig]": {
 		"editor.defaultFormatter": "mblode.twig-language-2"
