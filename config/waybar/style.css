@@ -43,7 +43,7 @@ window#waybar {
 #custom-brightness {
     color: @fg;
     background-color: @bg;
-    margin: 0 6px 0 6px;
+    margin: 0 6px 0 0;
     padding: 0 15px 0 15px; /* top, right, bottom, left */
 }
 
