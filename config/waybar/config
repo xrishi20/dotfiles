@@ -4,10 +4,20 @@
     "margin-bottom": 8,
     "modules-left": ["clock", "clock#date"],
     "modules-center": ["hyprland/workspaces"],
-    "modules-right": ["network", "pulseaudio", "temperature", "tray"],
+    "modules-right": ["network", "pulseaudio", "custom/brightness", "temperature", "tray"],
 
     "tray": {
         "spacing": 10
+    },
+
+    "custom/brightness": {
+        "exec": "ddcutil getvcp 10 -t | perl -nE 'if (/ C (\\d+) /) { say $1; }'",
+        "exec-if": "sleep 1",
+        "format": "{icon} {}%",
+        "format-icons": ["󰖨"],
+        "interval": "once",
+        "on-scroll-up": "ddcutil setvcp 10 + 10",
+        "on-scroll-down": "ddcutil setvcp 10 - 10"
     },
 
     "clock": {

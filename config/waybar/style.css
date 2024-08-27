@@ -1,5 +1,5 @@
-@define-color bg #000000;
-@define-color fg #33CCFF;
+@define-color bg #0d0d12;
+@define-color fg #B3BAFF;
 
 * {
     font-family: 'SF Pro Display', 'Symbols Nerd Font', sans-serif;
@@ -39,7 +39,8 @@ window#waybar {
 }
 
 #network,
-#pulseaudio {
+#pulseaudio,
+#custom-brightness {
     color: @fg;
     background-color: @bg;
     margin: 0 6px 0 6px;
