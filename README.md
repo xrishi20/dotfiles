@@ -7,26 +7,16 @@ hyprland sddm xdg-desktop-portal-hyprland hyprpaper hyprpicker git nano kitty xd
 ### Optional
 
 ```
-librewolf-bin vscodium-bin-marketplace slack-desktop ddev-bin composer docker nodejs npm yarn
+zen-browser-bin vscodium-bin-marketplace zed slack-desktop ddev-bin composer docker nodejs npm yarn
 ```
 
 ### Gaming
 
 ```
-steam heroic-games-launcher-bin gamemode gamescope mangohud wine winetricks proton-ge-custom-bin
+steam gamemode gamescope mangohud wine winetricks proton-ge-custom-bin heroic-games-launcher-bin
 ```
 
 # Configuration
-
-### SDDM Theme
-
-> sudo nano /etc/sddm.conf </br>
-
-```
-[Theme]
-Current = Sugar-Candy
-CursorTheme = Qogir-white-cursors
-```
 
 ### Git Aliases
 
@@ -43,4 +33,14 @@ git config --global alias.puo "push -u origin"
 ```
 chmod 700 ~/.ssh
 chmod 600 ~/.ssh/*
+```
+
+### SDDM Theme
+
+> sudo nano /etc/sddm.conf </br>
+
+```
+[Theme]
+Current = Sugar-Candy
+CursorTheme = Qogir-white-cursors
 ```
