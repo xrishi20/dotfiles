@@ -1,13 +1,13 @@
 # Packages
 
 ```
-hyprland sddm xdg-desktop-portal-hyprland hyprpaper hyprpicker git nano kitty xdg-user-dirs xdg-user-dirs-gtk waybar openssh tofi ddcutil dunst gnome-font-viewer swayimg unzip gvfs-mtp android-tools android-file-transfer android-udev libmtp fish nautilus udev-block-notify htop polkit-gnome gnome-keyring seahorse udisks2 brightnessctl bluez bluez-utils blueberry qt5-wayland qt6-wayland pipewire wireplumber pipewire-pulse playerctl pavucontrol nm-connection-editor grim slurp wl-clipboard ttf-nerd-fonts-symbols sddm-theme-sugar-candy-git
+hyprland sddm xdg-desktop-portal-hyprland hyprpaper hyprpicker git nano kitty xdg-user-dirs xdg-user-dirs-gtk waybar openssh reflector tofi ddcutil dunst gnome-font-viewer swayimg unzip gvfs-mtp android-tools android-file-transfer android-udev libmtp fish nautilus udev-block-notify htop polkit-gnome gnome-keyring seahorse udisks2 brightnessctl bluez bluez-utils blueman qt5-wayland qt6-wayland pipewire wireplumber pipewire-pulse playerctl pavucontrol nm-connection-editor grim slurp wl-clipboard ttf-nerd-fonts-symbols sddm-theme-sugar-candy-git inter-font ttf-jetbrains-mono-nerd
 ```
 
 ### Optional
 
 ```
-zen-browser-bin vscodium-bin-marketplace zed slack-desktop ddev-bin composer docker nodejs npm yarn
+librewolf-bin vscodium-bin-marketplace zed slack-desktop ddev-bin composer docker nodejs npm
 ```
 
 ### Gaming

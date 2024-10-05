@@ -1,23 +1,15 @@
 {
-    "layer": "bottom",
-    "position": "bottom",
-    "margin-bottom": 8,
+    "layer": "top",
+    "position": "top",
+    "margin-top": 8,
+    "margin-left": 8,
+    "margin-right": 8,
     "modules-left": ["clock", "clock#date"],
     "modules-center": ["hyprland/workspaces"],
-    "modules-right": ["network", "pulseaudio", "custom/brightness", "temperature", "tray"],
+    "modules-right": ["network", "pulseaudio", "temperature", "tray"],
 
     "tray": {
         "spacing": 10
-    },
-
-    "custom/brightness": {
-        "exec": "ddcutil getvcp 10 -t | perl -nE 'if (/ C (\\d+) /) { say $1; }'",
-        "exec-if": "sleep 1",
-        "format": "{icon} {}%",
-        "format-icons": ["󰖨"],
-        "interval": "once",
-        "on-scroll-up": "ddcutil setvcp 10 + 10",
-        "on-scroll-down": "ddcutil setvcp 10 - 10"
     },
 
     "clock": {
@@ -25,7 +17,7 @@
     },
 
     "clock#date": {
-        "format": "   {:%a, %d %b}"
+        "format": "   {:%A, %d %b}"
     },
 
     "pulseaudio": {
@@ -54,7 +46,7 @@
         "max-length": 50,
         "format-icons": ["󰤯", "󰤟", "󰤢", "󰤥", "󰤨"]
     },
-    
+
     "hyprland/workspaces": {
         "format": "{icon}",
         "on-click": "activate",

@@ -1,8 +1,8 @@
-@define-color fg #9F4037;
-@define-color bg #e8ab8b;
+@define-color fg #33ccff;
+@define-color bg rgba(0,0,0,0.9);
 
 * {
-    font-family: "SF Pro Display", "Symbols Nerd Font", sans-serif;
+    font-family: "Inter", "Symbols Nerd Font", sans-serif;
     font-weight: 600;
     font-size: 15px;
     border-radius: 50px;
@@ -32,14 +32,6 @@ window#waybar {
     background-color: @bg;
     margin: 0 0 0 6px;
     padding: 0 15px 0 15px;
-}
-
-.modules-left {
-    margin-left: 12px;
-}
-
-.modules-right {
-    margin-right: 12px;
 }
 
 #network,

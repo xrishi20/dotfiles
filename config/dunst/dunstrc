@@ -9,12 +9,12 @@
     padding = 16
     horizontal_padding = 8
     text_icon_padding = 0
-    frame_width = 4
+    frame_width = 3
 
-    frame_color = "#e8ab8b"
+    frame_color = "#33ccff"
     separator_color = frame
 
-    font= SF Pro Display 12
+    font= Inter 12
 
     sort = yes
     idle_threshold = 120
@@ -29,10 +29,10 @@
 
     show_indicators = yes
 
-    min_icon_size = 0
+    min_icon_size = 32
     max_icon_size = 64
 
-    icon_path = /usr/share/icons/McMuse/16x16/status/:/usr/share/icons/McMuse/16x16/devices/:/usr/share/icons/McMuse/16x16/actions/:/usr/share/icons/McMuse/16x16/animations/:/usr/share/icons/McMuse/16x16/apps/:/usr/share/icons/McMuse/16x16/categories/:/usr/share/icons/McMuse/16x16/emblems/:/usr/share/icons/McMuse/16x16/emotes/:/usr/share/icons/McMuse/16x16/devices/mimetypes:/usr/share/icons/McMuse/16x16/panel/:/usr/share/icons/McMuse/16x16/places/
+    icon_path = /usr/share/icons/Papirus/16x16/status/:/usr/share/icons/Papirus/16x16/devices/:/usr/share/icons/Papirus/16x16/actions/:/usr/share/icons/Papirus/16x16/animations/:/usr/share/icons/Papirus/16x16/apps/:/usr/share/icons/Papirus/16x16/categories/:/usr/share/icons/Papirus/16x16/emblems/:/usr/share/icons/Papirus/16x16/emotes/:/usr/share/icons/Papirus/16x16/devices/mimetypes:/usr/share/icons/Papirus/16x16/panel/:/usr/share/icons/Papirus/16x16/places/
 
     dmenu = /usr/bin/tofi-drun
     browser = /usr/bin/librewolf --new-tab
@@ -40,20 +40,20 @@
     title = Dunst
     class = Dunst
 
-    corner_radius = 12
+    corner_radius = 8
     timeout = 3
 
 [urgency_low]
-    background = "#140f0ccc"
+    background = "#000000cc"
     foreground = "#ffffff"
-    frame_color = "#f9e2af"
+    frame_color = "#F9E2AF"
 
 [urgency_normal]
-    background = "#140f0ccc"
+    background = "#000000cc"
     foreground = "#ffffff"
-    frame_color = "#e8ab8b"
+    frame_color = "#33ccff"
 
 [urgency_critical]
-    background = "#140f0ccc"
+    background = "#000000cc"
     foreground = "#FFFFFF"
-    frame_color = "#f7768e"
+    frame_color = "#F38BA8"
