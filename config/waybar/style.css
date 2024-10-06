@@ -1,11 +1,11 @@
 @define-color fg #33ccff;
-@define-color bg rgba(0,0,0,0.9);
+@define-color bg rgba(0,0,0,0.8);
 
 * {
     font-family: "Inter", "Symbols Nerd Font", sans-serif;
     font-weight: 600;
     font-size: 15px;
-    border-radius: 50px;
+    border-radius: 18px;
 }
 
 window#waybar {
