@@ -1,7 +1,7 @@
 {
-    "layer": "top",
-    "position": "top",
-    "margin-top": 8,
+    "layer": "bottom",
+    "position": "bottom",
+    "margin-bottom": 8,
     "margin-left": 8,
     "margin-right": 8,
     "modules-left": ["clock", "clock#date"],
@@ -58,8 +58,8 @@
 
 	"temperature": {
         "hwmon-path": "/sys/class/hwmon/hwmon2/temp1_input",
-		"format": "{icon} {temperatureC}°C",
-		"format-icons": [" ", " ", " "],
+		"format": "{icon}  {temperatureC}°C",
+		"format-icons": ["", "", ""],
 		"tooltip": true,
 		"on-click": "kitty --start-as=fullscreen --title all_is_kitty sh -c 'htop'",
 		"interval": 2
