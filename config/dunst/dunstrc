@@ -2,7 +2,7 @@
     follow = mouse
     indicate_hidden = yes
 
-    offset = 24x24
+    offset = 20x20
 
     separator_height = 2
 
@@ -11,7 +11,7 @@
     text_icon_padding = 0
     frame_width = 3
 
-    frame_color = "#56D07D"
+    frame_color = "#E58A6E"
     separator_color = frame
 
     font= Inter 12
@@ -40,20 +40,20 @@
     title = Dunst
     class = Dunst
 
-    corner_radius = 8
+    corner_radius = 12
     timeout = 3
 
 [urgency_low]
-    background = "#000000cc"
+    background = "#000000e6"
     foreground = "#ffffff"
     frame_color = "#F9E2AF"
 
 [urgency_normal]
-    background = "#000000cc"
+    background = "#000000e6"
     foreground = "#ffffff"
-    frame_color = "#56D07D"
+    frame_color = "#E58A6E"
 
 [urgency_critical]
-    background = "#000000cc"
+    background = "#000000e6"
     foreground = "#FFFFFF"
     frame_color = "#F38BA8"
