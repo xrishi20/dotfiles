@@ -11,7 +11,7 @@
     text_icon_padding = 0
     frame_width = 3
 
-    frame_color = "#E58A6E"
+    frame_color = "#B4BEFE"
     separator_color = frame
 
     font= Inter 12
@@ -44,16 +44,16 @@
     timeout = 3
 
 [urgency_low]
-    background = "#000000e6"
+    background = "#11111Be6"
     foreground = "#ffffff"
     frame_color = "#F9E2AF"
 
 [urgency_normal]
-    background = "#000000e6"
+    background = "#11111Be6"
     foreground = "#ffffff"
-    frame_color = "#E58A6E"
+    frame_color = "#B4BEFE"
 
 [urgency_critical]
-    background = "#000000e6"
+    background = "#11111Be6"
     foreground = "#FFFFFF"
     frame_color = "#F38BA8"

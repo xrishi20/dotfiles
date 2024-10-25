@@ -1,11 +1,11 @@
-@define-color fg #E58A6E;
-@define-color bg rgba(0,0,0,0.95);
+@define-color fg #B4BEFE;
+@define-color bg #11111B;
 
 * {
     font-family: "Inter", "Symbols Nerd Font", sans-serif;
     font-weight: 600;
     font-size: 15px;
-    border-radius: 18px;
+    border-radius: 12px;
 }
 
 window#waybar {
@@ -13,41 +13,29 @@ window#waybar {
     color: @fg;
 }
 
+#workspaces button {
+    color: @fg;
+    border-radius: 18px;
+}
+
 #workspaces button.active {
     background-color: @fg;
     color: @bg;
 }
 
-#workspaces button {
-    color: @fg;
-}
-
 #workspaces {
     background-color: @bg;
-    margin-left: 6px;
-}
-
-#tray {
-    color: @fg;
-    background-color: @bg;
-    margin: 0 0 0 6px;
-    padding: 0 15px 0 15px;
+    border-radius: 18px;
 }
 
 #network,
 #pulseaudio,
-#custom-brightness {
-    color: @fg;
-    background-color: @bg;
-    margin: 0 6px 0 0;
-    padding: 0 15px 0 15px;
-}
-
 #clock {
     color: @fg;
     background-color: @bg;
     margin: 0 6px 0 0;
     padding: 0 15px 0 15px;
+    border-radius: 18px;
 }
 
 #temperature {
@@ -55,12 +43,13 @@ window#waybar {
     background-color: @bg;
     margin: 0;
     padding: 0 15px 0 15px;
+    border-radius: 18px;
 }
 
-#network {
+#tray {
     color: @fg;
-}
-
-#pulseaudio {
-    color: @fg;
+    background-color: @bg;
+    margin: 0 0 0 6px;
+    padding: 0 15px 0 15px;
+    border-radius: 18px;
 }

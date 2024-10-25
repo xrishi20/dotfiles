@@ -5,7 +5,5 @@ end
 alias cleanup='sudo pacman -Rns $(pacman -Qtdq)'
 alias jctl="journalctl -p 3 -xb"
 alias update-grub="sudo grub-mkconfig -o /boot/grub/grub.cfg"
-alias ll="eza -l"
-alias ls="eza"
 
 set -g fish_greeting
