@@ -1,16 +1,21 @@
 @define-color fg #B4BEFE;
-@define-color bg #11111B;
+@define-color bg #08040B;
 
 * {
     font-family: "Inter", "Symbols Nerd Font", sans-serif;
-    font-weight: 600;
-    font-size: 15px;
-    border-radius: 12px;
+    font-weight: 500;
+    font-size: 16px;
+    border-radius: 8px;
 }
 
 window#waybar {
     background-color: transparent;
     color: @fg;
+}
+
+#workspaces {
+    background-color: @bg;
+    border-radius: 18px;
 }
 
 #workspaces button {
@@ -21,11 +26,6 @@ window#waybar {
 #workspaces button.active {
     background-color: @fg;
     color: @bg;
-}
-
-#workspaces {
-    background-color: @bg;
-    border-radius: 18px;
 }
 
 #network,

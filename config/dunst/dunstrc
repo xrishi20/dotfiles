@@ -44,16 +44,16 @@
     timeout = 3
 
 [urgency_low]
-    background = "#11111Be6"
+    background = "#08040Be6"
     foreground = "#ffffff"
     frame_color = "#F9E2AF"
 
 [urgency_normal]
-    background = "#11111Be6"
+    background = "#08040Be6"
     foreground = "#ffffff"
     frame_color = "#B4BEFE"
 
 [urgency_critical]
-    background = "#11111Be6"
+    background = "#08040Be6"
     foreground = "#FFFFFF"
     frame_color = "#F38BA8"
