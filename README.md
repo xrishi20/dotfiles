@@ -1,19 +1,19 @@
 # Packages
 
 ```
-hyprland sddm xdg-desktop-portal-hyprland swww hyprpicker git nano kitty lazygit xdg-user-dirs xdg-user-dirs-gtk waybar openssh tofi ddcutil dunst gnome-font-viewer swayimg unzip gvfs-mtp android-tools android-file-transfer android-udev libmtp fish nautilus udev-block-notify htop polkit-gnome gnome-keyring seahorse udisks2 brightnessctl bluez bluez-utils blueberry qt5-wayland qt6-wayland pipewire wireplumber pipewire-pulse playerctl pavucontrol nm-connection-editor grim slurp wl-clipboard inter-font ttf-jetbrains-mono-nerd ttf-nerd-fonts-symbols papirus-icon-theme sddm-theme-sugar-candy-git
+hyprland sddm xdg-desktop-portal-hyprland swww hyprpicker git nano kitty xdg-user-dirs xdg-user-dirs-gtk waybar openssh tofi dunst gnome-font-viewer unzip gvfs-mtp android-tools android-file-transfer android-udev libmtp fish starship nautilus udev-block-notify htop polkit-gnome gnome-keyring seahorse udisks2 brightnessctl bluez bluez-utils blueberry qt5-wayland qt6-wayland pipewire wireplumber pipewire-pulse playerctl pavucontrol nm-connection-editor grim slurp wl-clipboard inter-font ttf-jetbrains-mono-nerd ttf-nerd-fonts-symbols papirus-icon-theme sddm-theme-sugar-candy-git
 ```
 
 ### Work
 
 ```
-librewolf-bin visual-studio-code-bin zed slack-desktop ddev-bin composer docker
+brave-bin visual-studio-code-bin slack-desktop-wayland docker ddev-bin composer
 ```
 
 ### Gaming
 
 ```
-steam gamemode gamescope mangohud wine winetricks proton-ge-custom-bin heroic-games-launcher-bin
+steam gamemode gamescope mangohud wine winetricks proton-ge-custom-bin
 ```
 
 # Configuration
@@ -21,7 +21,7 @@ steam gamemode gamescope mangohud wine winetricks proton-ge-custom-bin heroic-ga
 ### Git Aliases
 
 ```
-git config --global user.name ""
+git config --global user.name "xrishi20"
 git config --global user.email ""
 git config --global alias.a "add ."
 git config --global alias.cm "commit -m"

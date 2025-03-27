@@ -11,7 +11,7 @@
     text_icon_padding = 0
     frame_width = 3
 
-    frame_color = "#57C29F"
+    frame_color = "#FF9869"
     separator_color = frame
 
     font= Inter 12
@@ -51,7 +51,7 @@
 [urgency_normal]
     background = "#000000e6"
     foreground = "#ffffff"
-    frame_color = "#57C29F"
+    frame_color = "#FF9869"
 
 [urgency_critical]
     background = "#000000e6"
