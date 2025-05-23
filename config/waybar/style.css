@@ -1,4 +1,4 @@
-@define-color fg #FF9869;
+@define-color fg #57C29F;
 @define-color bg #000000;
 
 * {
@@ -15,12 +15,13 @@ window#waybar {
 
 #workspaces {
     background-color: @bg;
-    border-radius: 18px;
+    border-radius: 24px;
 }
 
 #workspaces button {
     color: @fg;
-    border-radius: 18px;
+    border-radius: 24px;
+    padding: 0px 8px;
 }
 
 #workspaces button.active {
@@ -34,22 +35,22 @@ window#waybar {
     color: @fg;
     background-color: @bg;
     margin: 0 6px 0 0;
-    padding: 0 15px 0 15px;
-    border-radius: 18px;
+    padding: 10px 20px;
+    border-radius: 24px;
 }
 
 #temperature {
     color: @fg;
     background-color: @bg;
     margin: 0;
-    padding: 0 15px 0 15px;
-    border-radius: 18px;
+    padding: 10px 20px;
+    border-radius: 24px;
 }
 
 #tray {
     color: @fg;
     background-color: @bg;
     margin: 0 0 0 6px;
-    padding: 0 15px 0 15px;
-    border-radius: 18px;
+    padding: 10px 20px;
+    border-radius: 24px;
 }
