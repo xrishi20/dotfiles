@@ -30,4 +30,17 @@ cp "$WALLPAPER" "$PICTURES_DIR/"
 echo "📦 Installing packages with YAY!"
 yay -S --needed hyprland sddm xdg-desktop-portal-hyprland uwsm ddcutil swww hyprpicker git nano kitty xdg-user-dirs xdg-user-dirs-gtk waybar openssh tofi dunst gnome-font-viewer unzip gvfs-mtp android-tools android-file-transfer android-udev libmtp fish starship eza nautilus udev-block-notify htop polkit-gnome gnome-keyring seahorse udisks2 brightnessctl bluez bluez-utils blueberry qt5-wayland qt6-wayland pipewire wireplumber pipewire-pulse playerctl pavucontrol nm-connection-editor grim slurp wl-clipboard inter-font ttf-jetbrains-mono-nerd ttf-nerd-fonts-symbols papirus-icon-theme sddm-theme-sugar-candy-git
 
+echo "🔧 Setting up Git aliases..."
+git config --global alias.a "add ."
+git config --global alias.cm "commit -m"
+git config --global alias.puo "push -u origin"
+
+echo "🎨 Configuring SDDM theme (requires sudo)..."
+sudo bash -c 'cat <<EOF >> /etc/sddm.conf
+
+[Theme]
+Current = Sugar-Candy
+CursorTheme = Qogir-white-cursors
+EOF'
+
 echo "✅ Installation complete!"
