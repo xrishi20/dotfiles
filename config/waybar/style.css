@@ -1,9 +1,9 @@
-@define-color fg #33CCFF;
+@define-color fg #33ccff;
 @define-color bg #000000;
 
 * {
-    font-family: "Inter", "Symbols Nerd Font", sans-serif;
-    font-weight: 500;
+    font-family: "Josefin Sans", "Inter", "Symbols Nerd Font", sans-serif;
+    font-weight: 400;
     font-size: 16px;
     border-radius: 8px;
 }
@@ -19,9 +19,10 @@ window#waybar {
 }
 
 #workspaces button {
+    background-color: @bg;
     color: @fg;
+    padding: 0px 16px;
     border-radius: 24px;
-    padding: 0px 12px;
 }
 
 #workspaces button.active {
@@ -35,7 +36,7 @@ window#waybar {
     color: @fg;
     background-color: @bg;
     margin: 0 6px 0 0;
-    padding: 10px 20px;
+    padding: 12px 20px;
     border-radius: 24px;
 }
 
@@ -43,7 +44,7 @@ window#waybar {
     color: @fg;
     background-color: @bg;
     margin: 0;
-    padding: 10px 20px;
+    padding: 12px 20px;
     border-radius: 24px;
 }
 
@@ -51,6 +52,6 @@ window#waybar {
     color: @fg;
     background-color: @bg;
     margin: 0 0 0 6px;
-    padding: 10px 20px;
+    padding: 12px 20px;
     border-radius: 24px;
 }

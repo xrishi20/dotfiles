@@ -13,11 +13,11 @@
     },
 
     "clock": {
-        "format": "󰥔   {:%I:%M %p}"
+        "format": "  {:%I:%M %p}"
     },
 
     "clock#date": {
-        "format": "   {:%A, %d %b}"
+        "format": "󰨲  {:%A, %d %b}"
     },
 
     "pulseaudio": {
@@ -34,7 +34,7 @@
             "phone": "",
             "portable": "",
             "car": "",
-            "default": ["󰖀", "󰕾"]
+            "default": ["", ""]
         }
     },
 
@@ -44,22 +44,22 @@
         "format-ethernet": "󰈀   {ipaddr}/{cidr}",
         "format-disconnected": "󰤭   disconnected",
         "max-length": 50,
-        "format-icons": ["󰤯", "󰤟", "󰤢", "󰤥", "󰤨"]
+        "format-icons": ["󰤯", "󰤟", "󰤢", "󰤥", ""]
     },
 
     "hyprland/workspaces": {
         "format": "{icon}",
         "on-click": "activate",
         "format-icons": {
-			"active": "",
-			"default": ""
+			"active": "󰮯",
+			"default": "󰮯"
 		}
     },
 
 	"temperature": {
         "hwmon-path": "/sys/class/hwmon/hwmon2/temp1_input",
 		"format": "{icon}  {temperatureC}°C",
-		"format-icons": ["", "", ""],
+		"format-icons": ["", "", ""],
 		"tooltip": true,
 		"on-click": "kitty --start-as=fullscreen --title all_is_kitty sh -c 'htop'",
 		"interval": 2
