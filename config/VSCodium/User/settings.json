@@ -138,22 +138,8 @@
   "terminal.integrated.fontSize": 16,
   "workbench.startupEditor": "none",
   "diffEditor.ignoreTrimWhitespace": false,
-  "editor.fontSize": 17,
-  "workbench.iconTheme": "symbols",
-  "indentRainbow.colors": [
-    "rgba(3, 102, 102,0.15)",
-    "rgba(20, 116, 111,0.15)",
-    "rgba(36, 130, 119, 0.15)",
-    "rgba(53, 143, 128,0.15)",
-    "rgba(70, 157, 137,0.15)",
-    "rgba(86, 171, 145,0.15)",
-    "rgba(103, 185, 154,0.15)",
-    "rgba(103, 185, 154,0.1)",
-    "rgba(103, 185, 154,0.05)"
-  ],
-  "workbench.colorTheme": "Kay Dark",
+  "editor.fontSize": 18,
   "workbench.editorAssociations": {
     "*.svg": "default"
   },
-  "editor.formatOnSave": true,
 }

@@ -44,7 +44,7 @@
         "format-ethernet": "󰈀   {ipaddr}/{cidr}",
         "format-disconnected": "󰤭   disconnected",
         "max-length": 50,
-        "format-icons": ["󰤯", "󰤟", "󰤢", "󰤥", ""]
+        "format-icons": ["󰤯", "󰤟", "󰤢", "󰤥", "󰤨"]
     },
 
     "hyprland/workspaces": {

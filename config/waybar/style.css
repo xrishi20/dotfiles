@@ -1,4 +1,4 @@
-@define-color fg #33ccff;
+@define-color fg #f7956f;
 @define-color bg #000000;
 
 * {
@@ -21,7 +21,7 @@ window#waybar {
 #workspaces button {
     background-color: @bg;
     color: @fg;
-    padding: 0px 16px;
+    padding: 0px 20px;
     border-radius: 24px;
 }
 

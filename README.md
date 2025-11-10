@@ -1,22 +1,33 @@
 # Packages
 
+### Base
 ```
-hyprland sddm xdg-desktop-portal-hyprland uwsm ddcutil hyprpaper hyprpicker git nano kitty xdg-user-dirs xdg-user-dirs-gtk waybar openssh tofi dunst gnome-font-viewer unzip gvfs-mtp android-tools android-file-transfer android-udev libmtp fish starship eza nautilus udev-block-notify htop polkit-gnome gnome-keyring seahorse udisks2 brightnessctl bluez bluez-utils blueberry qt5-wayland qt6-wayland pipewire wireplumber pipewire-pulse playerctl pavucontrol nm-connection-editor grim slurp wl-clipboard inter-font ttf-jetbrains-mono-nerd ttf-nerd-fonts-symbols papirus-icon-theme sddm-theme-sugar-candy-git
+hyprland sddm hyprpaper hyprpicker xdg-desktop-portal-hyprland git nano kitty uwsm cowsay ddcutil xdg-user-dirs xdg-user-dirs-gtk waybar openssh tofi dunst gnome-font-viewer unzip gvfs-mtp android-tools android-file-transfer android-udev libmtp fish fisher starship nautilus udev-block-notify htop polkit-gnome gnome-keyring seahorse udisks2 brightnessctl bluez bluez-utils blueberry qt5-wayland qt6-wayland pipewire wireplumber pipewire-pulse playerctl pavucontrol nm-connection-editor grim slurp wl-clipboard inter-font ttf-jetbrains-mono-nerd ttf-nerd-fonts-symbols noto-fonts-emoji papirus-icon-theme papirus-folders
 ```
 
 ### Work
 
 ```
-brave-bin vscodium-bin-marketplace slack-desktop-wayland docker ddev-bin composer
+librewolf-bin vscodium-bin-marketplace slack-desktop-wayland docker ddev-bin
 ```
 
 ### Gaming
 
 ```
-steam gamemode gamescope mangohud wine winetricks proton-ge-custom-bin heroic-games-launcher-bin
+steam gamemode gamescope mangohud proton-ge-custom-bin
 ```
 
+# Themes
+[Colloid GTK Theme](https://github.com/vinceliuice/Colloid-gtk-theme) &nbsp;|&nbsp; [Qogir Cursors](https://www.gnome-look.org/p/1366182) &nbsp;|&nbsp; [Catppuccin SDDM](https://github.com/catppuccin/sddm)
+
 # Configuration
+
+### SSH Permissions
+
+```
+chmod 700 ~/.ssh
+chmod 600 ~/.ssh/*
+```
 
 ### Git Configs
 
@@ -30,14 +41,7 @@ git config --global user.name ""
 git config --global user.email ""
 ```
 
-### SSH Permissions
-
-```
-chmod 700 ~/.ssh
-chmod 600 ~/.ssh/*
-```
-
-### SDDM Theme
+### SDDM Configuration
 
 ```
 sudo nano /etc/sddm.conf
@@ -45,6 +49,6 @@ sudo nano /etc/sddm.conf
 
 ```
 [Theme]
-Current = Sugar-Candy
+Current = Catppuccin
 CursorTheme = Qogir-white-cursors
 ```
