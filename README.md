@@ -2,13 +2,13 @@
 
 ### Base
 ```
-hyprland sddm hyprpaper hyprpicker xdg-desktop-portal-hyprland git nano kitty uwsm cowsay ddcutil xdg-user-dirs xdg-user-dirs-gtk waybar openssh tofi dunst gnome-font-viewer unzip gvfs-mtp android-tools android-file-transfer android-udev libmtp fish fisher starship nautilus udev-block-notify htop polkit-gnome gnome-keyring seahorse udisks2 brightnessctl bluez bluez-utils blueberry qt5-wayland qt6-wayland pipewire wireplumber pipewire-pulse playerctl pavucontrol nm-connection-editor grim slurp wl-clipboard inter-font ttf-jetbrains-mono-nerd ttf-nerd-fonts-symbols noto-fonts-emoji papirus-icon-theme papirus-folders
+hyprland sddm swww hyprpicker xdg-desktop-portal-hyprland git nano kitty uwsm cowsay ddcutil xdg-user-dirs xdg-user-dirs-gtk waybar openssh tofi dunst gnome-font-viewer unzip gvfs-mtp android-tools android-file-transfer android-udev libmtp fish fisher starship nautilus udev-block-notify htop polkit-gnome gnome-keyring seahorse udisks2 brightnessctl bluez bluez-utils blueberry qt5-wayland qt6-wayland pipewire wireplumber pipewire-pulse playerctl pavucontrol nm-connection-editor grim slurp wl-clipboard inter-font ttf-jetbrains-mono-nerd ttf-nerd-fonts-symbols noto-fonts-emoji papirus-icon-theme papirus-folders
 ```
 
 ### Work
 
 ```
-librewolf-bin vscodium-bin-marketplace slack-desktop-wayland docker ddev-bin
+brave-bin librewolf-bin vscodium-bin-marketplace slack-desktop-wayland docker ddev-bin
 ```
 
 ### Gaming

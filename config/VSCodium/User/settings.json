@@ -1,5 +1,5 @@
 {
-  "editor.fontWeight": "300",
+  "editor.fontWeight": "400",
   "editor.formatOnType": true,
   "editor.lineHeight": 1.625,
   "terminal.integrated.fontFamily": "'JetBrainsMono NF', Consolas, 'Courier New', monospace",
@@ -113,7 +113,7 @@
   "terminal.integrated.defaultProfile.windows": "PowerShell",
   "git.confirmSync": false,
   "[html]": {
-    "editor.defaultFormatter": "vscode.emmet"
+    "editor.defaultFormatter": "vscode.html-language-features"
   },
   "[twig]": {
     "editor.defaultFormatter": "mblode.twig-language-2"
@@ -142,4 +142,9 @@
   "workbench.editorAssociations": {
     "*.svg": "default"
   },
+  "workbench.iconTheme": "symbols",
+  "redhat.telemetry.enabled": true,
+  "workbench.colorTheme": "Kay Dark",
+  "debug.confirmOnExit": "always",
+  "editor.formatOnSave": true,
 }

@@ -1,0 +1,7 @@
+export GDK_BACKEND=wayland,x11
+export QT_QPA_PLATFORM=wayland;xcb
+export QT_QPA_PLATFORMTHEME=qt5ct
+
+export GTK_THEME=Colloid-Orange
+export XCURSOR_THEME=Qogir-white-cursors
+export XCURSOR_SIZE=24

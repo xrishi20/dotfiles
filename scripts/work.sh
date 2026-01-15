@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "Work Related Packages"
-yay -S --needed librewolf-bin vscodium-bin-marketplace slack-desktop-wayland docker ddev-bin
+yay -S --needed brave-bin librewolf-bin vscodium-bin-marketplace slack-desktop-wayland docker ddev-bin
 
 echo "Docker Services Setup"
 sudo systemctl enable docker.service
