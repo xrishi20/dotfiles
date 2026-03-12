@@ -38,4 +38,4 @@ Current = Catppuccin
 CursorTheme = Qogir-white-cursors
 EOF'
 
-cowsay "All Done, Don't forget to reboot. Mooooooooo!"
+echo "Complete!"

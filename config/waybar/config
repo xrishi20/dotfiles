@@ -4,29 +4,51 @@
     "margin-bottom": 8,
     "margin-left": 8,
     "margin-right": 8,
-    "modules-left": ["clock", "clock#date"],
-    "modules-center": ["hyprland/workspaces"],
-    "modules-right": ["network", "pulseaudio", "temperature", "tray"],
-
+    "modules-left": [
+        "clock",
+        "clock#date"
+    ],
+    "modules-center": [
+        "hyprland/workspaces"
+    ],
+    "modules-right": [
+        "network",
+        "pulseaudio",
+        "backlight",
+        "temperature",
+        "battery",
+        "tray"
+    ],
     "tray": {
         "spacing": 10
     },
-
     "clock": {
         "format": "  {:%I:%M %p}"
     },
-
     "clock#date": {
-        "format": "󰨲  {:%A, %d %b}"
+        "format": "󰨲  {:%A, %d %B}"
     },
-
+    "backlight": {
+        "format": "{icon}  {percent}%",
+        "format-icons": [
+            "󰃞",
+            "󰃟",
+            "󰃠"
+        ],
+        "on-scroll-up": "brightnessctl set 1%+",
+        "on-scroll-down": "brightnessctl set 1%-",
+        "min-length": 4,
+        "interval": 2
+    },
     "pulseaudio": {
         "format": "{icon}  {volume}%",
         "format-bluetooth": "󰂱  {volume}%",
         "format-muted": "󰖁",
         "scroll-step": 1,
         "on-click": "pavucontrol",
-        "ignored-sinks": ["Easy Effects Sink"],
+        "ignored-sinks": [
+            "Easy Effects Sink"
+        ],
         "format-icons": {
             "headphone": "",
             "hands-free": "",
@@ -34,34 +56,69 @@
             "phone": "",
             "portable": "",
             "car": "",
-            "default": ["", ""]
+            "default": [
+                "",
+                ""
+            ]
         }
     },
-
     "network": {
         "format": "{ifname}",
         "format-wifi": "{icon}   {essid}",
         "format-ethernet": "󰈀   {ipaddr}/{cidr}",
         "format-disconnected": "󰤭   disconnected",
         "max-length": 50,
-        "format-icons": ["󰤯", "󰤟", "󰤢", "󰤥", "󰤨"]
+        "format-icons": [
+            "󰤯",
+            "󰤟",
+            "󰤢",
+            "󰤥",
+            "󰤨"
+        ]
     },
-
     "hyprland/workspaces": {
         "format": "{icon}",
         "on-click": "activate",
         "format-icons": {
-			"active": "󰮯",
-			"default": "󰮯"
-		}
+            "active": "󰮯",
+            "default": "󰮯"
+        }
     },
-
-	"temperature": {
+    "battery": {
+        "states": {
+            "good": 55,
+            "warning": 30,
+            "critical": 20
+        },
+        "format": "{icon}  {capacity}%",
+        "format-charging": "  {capacity}%",
+        "format-plugged": "󰂄  {capacity}%",
+        "format-alt": "{icon}  {time}",
+        "format-full": "󱟢 {capacity}%",
+        "format-icons": [
+            "󰁺",
+            "󰁻",
+            "󰁼",
+            "󰁽",
+            "󰁾",
+            "󰁿",
+            "󰂀",
+            "󰂁",
+            "󰂂",
+            "󱟢"
+        ],
+        "interval": 2
+    },
+    "temperature": {
         "hwmon-path": "/sys/class/hwmon/hwmon2/temp1_input",
-		"format": "{icon}  {temperatureC}°C",
-		"format-icons": ["", "", ""],
-		"tooltip": true,
-		"on-click": "kitty --start-as=fullscreen --title all_is_kitty sh -c 'htop'",
-		"interval": 2
-	}
+        "format": "{icon}  {temperatureC}°C",
+        "format-icons": [
+            "",
+            "",
+            ""
+        ],
+        "tooltip": true,
+        "on-click": "kitty --start-as=fullscreen --title all_is_kitty sh -c 'htop'",
+        "interval": 2
+    }
 }

@@ -8,7 +8,7 @@
   "editor.wordWrap": "on",
   "diffEditor.wordWrap": "on",
   "git.autofetch": true,
-  "editor.fontFamily": "'Dank Mono', 'JetBrainsMono NF', Consolas, 'Courier New', monospace",
+  "editor.fontFamily": "'JetBrainsMono NF', Consolas, 'Courier New', monospace",
   "editor.linkedEditing": true,
   "emmet.excludeLanguages": [
     "markdown"
@@ -19,7 +19,7 @@
     "twig": "html"
   },
   "editor.snippetSuggestions": "top",
-  "editor.inlayHints.fontFamily": "'Dank Mono', 'JetBrainsMono NF', Consolas, 'Courier New', monospace",
+  "editor.inlayHints.fontFamily": "'JetBrainsMono NF', Consolas, 'Courier New', monospace",
   "editor.cursorStyle": "line",
   "editor.cursorSmoothCaretAnimation": "on",
   "editor.cursorBlinking": "smooth",
@@ -99,7 +99,7 @@
   "eslint.format.enable": true,
   "editor.bracketPairColorization.enabled": true,
   "editor.guides.bracketPairs": "active",
-  "editor.codeLensFontFamily": "'Dank Mono', 'JetBrainsMono NF', Consolas, 'Courier New', monospace",
+  "editor.codeLensFontFamily": "'JetBrainsMono NF', Consolas, 'Courier New', monospace",
   "markdown.preview.lineHeight": 1.5,
   "scm.inputFontSize": 16,
   "files.associations": {
@@ -138,13 +138,24 @@
   "terminal.integrated.fontSize": 16,
   "workbench.startupEditor": "none",
   "diffEditor.ignoreTrimWhitespace": false,
-  "editor.fontSize": 18,
+  "editor.fontSize": 17,
   "workbench.editorAssociations": {
     "*.svg": "default"
   },
   "workbench.iconTheme": "symbols",
-  "redhat.telemetry.enabled": true,
-  "workbench.colorTheme": "Kay Dark",
   "debug.confirmOnExit": "always",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
+  "workbench.colorTheme": "Material Theme Ocean High Contrast",
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
+  },
   "editor.formatOnSave": true,
+  "[astro]": {
+    "editor.defaultFormatter": "astro-build.astro-vscode"
+  },
 }
