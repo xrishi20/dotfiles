@@ -14,7 +14,8 @@ SYSTEM_FONTS="/usr/share/fonts"
 
 . ./scripts/base.sh
 . ./scripts/work.sh
-. ./scripts/gaming.sh
+
+# . ./scripts/gaming.sh
 
 echo "Copying Configs"
 mkdir -p "$USER_CONFIG"
