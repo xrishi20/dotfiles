@@ -35,7 +35,7 @@ echo "Configure SDDM theme"
 sudo bash -c 'cat <<EOF >> /etc/sddm.conf
 
 [Theme]
-Current = Catppuccin
+Current = sugar-candy
 CursorTheme = Qogir-white-cursors
 EOF'
 
