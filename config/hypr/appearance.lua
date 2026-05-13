@@ -36,7 +36,7 @@ hl.config({
       border_size      = 2,
 
       col              = {
-         active_border   = "rgb(fca062)",
+         active_border   = "rgb(bfe87d)",
          inactive_border = "rgba(ffffff40)",
       },
 
@@ -71,25 +71,13 @@ hl.config({
 })
 
 -- Animations
-hl.curve("quick", { type = "bezier", points = { { 0.15, 0 }, { 0.1, 1 } } })
-
-hl.animation({ leaf = "global", enabled = true, speed = 2, bezier = "quick" })
-hl.animation({ leaf = "border", enabled = true, speed = 2, bezier = "quick" })
-hl.animation({ leaf = "windows", enabled = true, speed = 2, bezier = "quick" })
-hl.animation({ leaf = "windowsIn", enabled = true, speed = 2, bezier = "quick" })
-hl.animation({ leaf = "windowsOut", enabled = true, speed = 2, bezier = "quick" })
-hl.animation({ leaf = "fadeIn", enabled = true, speed = 2, bezier = "quick" })
-hl.animation({ leaf = "fadeOut", enabled = true, speed = 2, bezier = "quick" })
-hl.animation({ leaf = "fade", enabled = true, speed = 2, bezier = "quick" })
-hl.animation({ leaf = "layers", enabled = true, speed = 2, bezier = "quick" })
-hl.animation({ leaf = "layersIn", enabled = true, speed = 2, bezier = "quick" })
-hl.animation({ leaf = "layersOut", enabled = true, speed = 2, bezier = "quick" })
-hl.animation({ leaf = "fadeLayersIn", enabled = true, speed = 2, bezier = "quick" })
-hl.animation({ leaf = "fadeLayersOut", enabled = true, speed = 2, bezier = "quick" })
-hl.animation({ leaf = "workspaces", enabled = true, speed = 2, bezier = "quick" })
-hl.animation({ leaf = "workspacesIn", enabled = true, speed = 2, bezier = "quick" })
-hl.animation({ leaf = "workspacesOut", enabled = true, speed = 2, bezier = "quick" })
-hl.animation({ leaf = "zoomFactor", enabled = true, speed = 2, bezier = "quick" })
+hl.curve("myBezier", { type = "bezier", points = { { 0.05, 0.9 }, { 0.1, 1.05 } } })
+hl.animation({ leaf = "windows", enabled = true, speed = 3, bezier = "myBezier" })
+hl.animation({ leaf = "windowsOut", enabled = true, speed = 3, bezier = "default", style = "popin 80%" })
+hl.animation({ leaf = "border", enabled = true, speed = 3, bezier = "default" })
+hl.animation({ leaf = "borderangle", enabled = true, speed = 3, bezier = "default" })
+hl.animation({ leaf = "fade", enabled = true, speed = 3, bezier = "default" })
+hl.animation({ leaf = "workspaces", enabled = true, speed = 3, bezier = "default" })
 
 -- Misc
 hl.config({

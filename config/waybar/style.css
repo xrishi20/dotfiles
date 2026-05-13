@@ -1,33 +1,33 @@
-@define-color fg #fca062;
+@define-color fg #bfe87d;
 @define-color bg #000000;
 
 * {
-    font-family: "Inter", "Symbols Nerd Font", sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    border-radius: 8px;
+   font-family: "Inter", "Symbols Nerd Font", sans-serif;
+   font-weight: 400;
+   font-size: 16px;
+   border-radius: 8px;
 }
 
 window#waybar {
-    background-color: transparent;
-    color: @fg;
+   background-color: transparent;
+   color: @fg;
 }
 
 #workspaces {
-    background-color: @bg;
-    border-radius: 24px;
+   background-color: @bg;
+   border-radius: 24px;
 }
 
 #workspaces button {
-    background-color: @bg;
-    color: @fg;
-    padding: 0px 20px;
-    border-radius: 24px;
+   background-color: @bg;
+   color: @fg;
+   padding: 0px 20px;
+   border-radius: 24px;
 }
 
 #workspaces button.active {
-    background-color: @fg;
-    color: @bg;
+   background-color: @fg;
+   color: @bg;
 }
 
 #network,
@@ -35,25 +35,25 @@ window#waybar {
 #pulseaudio,
 #temperature,
 #clock {
-    color: @fg;
-    background-color: @bg;
-    margin: 0 6px 0 0;
-    padding: 12px 20px;
-    border-radius: 24px;
+   color: @fg;
+   background-color: @bg;
+   margin: 0 6px 0 0;
+   padding: 12px 20px;
+   border-radius: 24px;
 }
 
 #battery {
-    color: @fg;
-    background-color: @bg;
-    margin: 0;
-    padding: 12px 20px;
-    border-radius: 24px;
+   color: @fg;
+   background-color: @bg;
+   margin: 0;
+   padding: 12px 20px;
+   border-radius: 24px;
 }
 
 #tray {
-    color: @fg;
-    background-color: @bg;
-    margin: 0 0 0 6px;
-    padding: 12px 20px;
-    border-radius: 24px;
+   color: @fg;
+   background-color: @bg;
+   margin: 0 0 0 6px;
+   padding: 12px 20px;
+   border-radius: 24px;
 }
