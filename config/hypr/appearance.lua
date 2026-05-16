@@ -4,13 +4,11 @@ hl.monitor({ output = "eDP-1", mode = "1920x1200@60", position = "2560x0", scale
 
 -- Assign Workspaces to Monitors
 for i = 1, 2 do
-   local key = i % 10
-   hl.workspace_rule({ workspace = key, monitor = "HDMI-A-1" })
+   hl.workspace_rule({ workspace = i, monitor = "HDMI-A-1" })
 end
 
-for i = 3, 10 do
-   local key = i % 10
-   hl.workspace_rule({ workspace = key, monitor = "eDP-1" })
+for i = 3, 9 do
+   hl.workspace_rule({ workspace = i, monitor = "eDP-1" })
 end
 
 -- Theming

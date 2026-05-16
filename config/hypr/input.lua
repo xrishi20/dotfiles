@@ -8,7 +8,7 @@ hl.config({
       sensitivity   = 0,
 
       touchpad      = {
-         natural_scroll = false,
+         natural_scroll = true,
       },
    },
 })
@@ -39,7 +39,7 @@ hl.bind("SUPER + T", hl.dsp.exec_cmd(browser))
 hl.bind("SUPER + C", hl.dsp.exec_cmd(editor))
 hl.bind("SUPER + E", hl.dsp.exec_cmd(fileManager))
 hl.bind("SUPER + W", hl.dsp.exec_cmd("pkill waybar || waybar"), { release = true })
-hl.bind("SUPER + space", hl.dsp.exec_cmd("tofi-drun | xargs hyprctl dispatch exec --"))
+hl.bind("SUPER + space", hl.dsp.exec_cmd("tofi-drun --drun-launch=true"))
 hl.bind("SUPER + escape", hl.dsp.window.close(window))
 hl.bind("SUPER + SHIFT + escape", hl.dsp.window.kill(window))
 hl.bind("SUPER + SHIFT + delete", hl.dsp.exec_cmd("uwsm stop"))
