@@ -70,6 +70,7 @@ hl.config({
 
 -- Animations
 hl.curve("myBezier", { type = "bezier", points = { { 0.05, 0.9 }, { 0.1, 1.05 } } })
+
 hl.animation({ leaf = "windows", enabled = true, speed = 3, bezier = "myBezier" })
 hl.animation({ leaf = "windowsOut", enabled = true, speed = 3, bezier = "default", style = "popin 80%" })
 hl.animation({ leaf = "border", enabled = true, speed = 3, bezier = "default" })
@@ -83,4 +84,24 @@ hl.config({
       force_default_wallpaper = -1,
       disable_hyprland_logo   = true,
    },
+})
+
+-- Window Rules
+hl.window_rule({
+   name = "fileManager",
+   match = {
+      class = "(xdg-desktop-portal-gtk)",
+   },
+   move = { "window_w * 0.5", "monitor_h * 0.25" },
+   size = { "monitor_w * 0.5", "monitor_h * 0.5" },
+   float = true,
+   stay_focused = true
+})
+
+hl.window_rule({
+   name = "vscodium",
+   match = {
+      class = "(codium)",
+   },
+   opacity = 0.85
 })
