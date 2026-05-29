@@ -13,8 +13,6 @@ USER_CONFIG="$HOME/.config"
 SYSTEM_FONTS="/usr/share/fonts"
 
 . ./scripts/base.sh
-. ./scripts/work.sh
-
 # . ./scripts/gaming.sh
 
 echo "Copying Configs"
