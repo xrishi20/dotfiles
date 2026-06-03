@@ -22,7 +22,7 @@ hl.on("hyprland.start", function()
    hl.exec_cmd("gsettings set org.gnome.desktop.interface font-name 'Inter'")
    hl.exec_cmd("gsettings set org.gnome.desktop.interface monospace-font-name 'JetBrainsMono NF'")
    hl.exec_cmd("gsettings set org.gnome.desktop.interface cursor-theme 'Qogir-white-cursors'")
-   hl.exec_cmd("setcursor Qogir-white-cursors 24")
+   hl.exec_cmd("hyprctl setcursor Qogir-white-cursors 24")
 end)
 
 -- Decoration
@@ -99,9 +99,9 @@ hl.window_rule({
 })
 
 hl.window_rule({
-   name = "vscodium",
+   name = "editor",
    match = {
-      class = "(codium)",
+      class = "(codium|dev.zed.Zed)",
    },
-   opacity = 0.85
+   opacity = 0.9
 })
