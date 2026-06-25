@@ -46,7 +46,6 @@ hl.bind("SUPER + SHIFT + delete", hl.dsp.exec_cmd("uwsm stop"))
 hl.bind("SUPER + K",
    hl.dsp.exec_cmd(
       "hyprpicker --format hex| head -c -1 | wl-copy && notify-send \"$(wl-paste)\" 'Copied to your clipboard!'"))
-hl.bind("SUPER + L", hl.dsp.exec_cmd("hyprlock"))
 
 -- Screenshot
 hl.bind("Print",

@@ -16,8 +16,8 @@ hl.on("hyprland.start", function()
    hl.exec_cmd("gsettings set org.gnome.desktop.interface color-scheme prefer-dark")
    hl.exec_cmd("gsettings set org.gnome.desktop.interface font-antialiasing rgba")
    hl.exec_cmd("gsettings set org.gnome.desktop.interface font-hinting slight")
-   hl.exec_cmd("gsettings set org.gnome.desktop.interface gtk-theme 'Colloid-Green'")
-   hl.exec_cmd("gsettings set org.gnome.desktop.wm.preferences theme 'Colloid-Green'")
+   hl.exec_cmd("gsettings set org.gnome.desktop.interface gtk-theme 'Colloid'")
+   hl.exec_cmd("gsettings set org.gnome.desktop.wm.preferences theme 'Colloid'")
    hl.exec_cmd("gsettings set org.gnome.desktop.interface icon-theme 'Papirus'")
    hl.exec_cmd("gsettings set org.gnome.desktop.interface font-name 'Inter'")
    hl.exec_cmd("gsettings set org.gnome.desktop.interface monospace-font-name 'JetBrainsMono NF'")
@@ -34,7 +34,7 @@ hl.config({
       border_size      = 2,
 
       col              = {
-         active_border   = "rgb(bfe87d)",
+         active_border   = "rgb(82aaff)",
          inactive_border = "rgba(ffffff40)",
       },
 
