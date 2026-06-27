@@ -28,7 +28,7 @@ hl.config({
 })
 
 -- Programs
-local browser     = "librewolf"
+local browser     = "helium-browser"
 local editor      = "zeditor"
 local terminal    = "kitty"
 local fileManager = "nautilus"
