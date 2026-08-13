@@ -1,10 +1,10 @@
 -- Monitors
-hl.monitor({ output = "HDMI-A-1", mode = "2560x1440@144", position = "0x0", scale = 1 })
+hl.monitor({ output = "DP-3", mode = "2560x1440@180", position = "0x0", scale = 1 })
 hl.monitor({ output = "eDP-1", mode = "1920x1200@60", position = "2560x0", scale = 1 })
 
 -- Assign Workspaces to Monitors
 for i = 1, 2 do
-   hl.workspace_rule({ workspace = i, monitor = "HDMI-A-1" })
+   hl.workspace_rule({ workspace = i, monitor = "DP-3" })
 end
 
 for i = 3, 9 do
@@ -21,8 +21,8 @@ hl.on("hyprland.start", function()
    hl.exec_cmd("gsettings set org.gnome.desktop.interface icon-theme 'Papirus'")
    hl.exec_cmd("gsettings set org.gnome.desktop.interface font-name 'Inter'")
    hl.exec_cmd("gsettings set org.gnome.desktop.interface monospace-font-name 'JetBrainsMono NF'")
-   hl.exec_cmd("gsettings set org.gnome.desktop.interface cursor-theme 'Qogir-white-cursors'")
-   hl.exec_cmd("hyprctl setcursor Qogir-white-cursors 24")
+   hl.exec_cmd("gsettings set org.gnome.desktop.interface cursor-theme 'Vision'")
+   hl.exec_cmd("hyprctl setcursor Vision 24")
 end)
 
 -- Decoration
@@ -34,7 +34,7 @@ hl.config({
       border_size      = 2,
 
       col              = {
-         active_border   = "rgb(82aaff)",
+         active_border   = "rgb(33ccff)",
          inactive_border = "rgba(ffffff40)",
       },
 
