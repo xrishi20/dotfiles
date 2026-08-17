@@ -36,8 +36,7 @@
    ],
    "buffer_font_family": ".ZedMono",
    "file_types": {
-      "twig": ["*.twig", "*.twig"],
-      "typescriptreact": ["*.tsx", "*.tsx"],
+      "typescriptreact": ["*.tsx"],
    },
    "colorize_brackets": true,
    "linked_edits": true,
@@ -49,8 +48,8 @@
    "ui_font_size": 16,
    "buffer_font_size": 16.0,
    "theme": {
-      "mode": "dark",
-      "light": "One Light",
+      "mode": "system",
+      "light": "Night Owl Light",
       "dark": "Night Owl Dark",
    },
 }
