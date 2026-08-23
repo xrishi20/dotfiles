@@ -4,7 +4,6 @@ end
 
 alias cleanup='sudo pacman -Rns $(pacman -Qtdq)'
 alias jctl="journalctl -p 3 -xb"
-alias update-grub="sudo grub-mkconfig -o /boot/grub/grub.cfg"
 
 starship init fish | source
 
