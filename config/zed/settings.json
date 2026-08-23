@@ -1,4 +1,5 @@
 {
+   "format_on_save": "on",
    "cli_default_open_behavior": "existing_window",
    "ui_font_family": "Inter",
    "buffer_line_height": "comfortable",
@@ -8,18 +9,12 @@
       "trust_all_worktrees": true,
    },
    "telemetry": {
-      "diagnostics": true,
+      "diagnostics": false,
       "metrics": false,
    },
    "terminal": {
       "font_size": 16.0,
       "font_family": "JetBrainsMono Nerd Font Mono",
-      "font_fallbacks": [
-         "JetBrainsMono NF",
-         "Consolas",
-         "Courier New",
-         "monospace",
-      ],
       "cursor_shape": "bar",
    },
    "base_keymap": "VSCode",
@@ -28,12 +23,6 @@
    },
    "cursor_shape": "bar",
    "cursor_blink": true,
-   "buffer_font_fallbacks": [
-      "JetBrainsMono NF",
-      "Consolas",
-      "Courier New",
-      "monospace",
-   ],
    "buffer_font_family": ".ZedMono",
    "file_types": {
       "typescriptreact": ["*.tsx"],
@@ -49,7 +38,7 @@
    "buffer_font_size": 16.0,
    "theme": {
       "mode": "system",
-      "light": "Night Owl Light",
-      "dark": "Night Owl Dark",
+      "light": "Noctalia Light Transparent",
+      "dark": "Noctalia Dark Transparent",
    },
 }

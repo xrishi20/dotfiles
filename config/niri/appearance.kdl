@@ -1,0 +1,54 @@
+layout {
+    gaps 12
+    background-color "transparent"
+    center-focused-column "never"
+
+    preset-column-widths {
+        proportion 0.3333
+        proportion 0.5
+        proportion 0.66666
+        proportion 1.0
+    }
+
+    default-column-width { proportion 0.5; }
+
+    focus-ring {
+        width 2
+    }
+
+    border {
+        off
+        width 2
+    }
+
+    shadow {
+        off
+        draw-behind-window false
+        softness 30
+        spread 5
+        offset x=0 y=5
+        color "#0007"
+    }
+
+    struts {
+        // left 64
+        // right 64
+        // top 64
+        // bottom 64
+    }
+}
+
+blur {
+  passes 3
+  offset 2.0
+  noise 0.06
+  saturation 1.0
+}
+
+cursor {
+    xcursor-theme "Vision"
+    xcursor-size 24
+}
+
+animations {
+}
