@@ -26,7 +26,7 @@ mkdir -p Documents Downloads Videos Projects Pictures/Wallpapers
 
 # Installing Pckages
 echo "Installing Packages"
-yay -S --needed niri xwayland-satellite greetd noctalia noctalia-greeter xdg-desktop-portal-gtk git nano kitty ddcutil pastel wl-clipboard xdg-user-dirs xdg-user-dirs-gtk openssh unzip gvfs-mtp android-tools android-file-transfer android-udev libmtp fish starship nautilus udisks2 brightnessctl bluez bluez-utils qt5-wayland qt6-wayland pipewire wireplumber pipewire-pulse playerctl pavucontrol nm-connection-editor inter-font ttf-jetbrains-mono-nerd ttf-nerd-fonts-symbols noto-fonts-emoji papirus-icon-theme zed deno helium-browser-bin localsend-bin
+yay -S --needed hyprland xdg-desktop-portal-hyprland hyprpicker grim slurp greetd noctalia noctalia-greeter xdg-desktop-portal-gtk git nano kitty ddcutil pastel wl-clipboard xdg-user-dirs xdg-user-dirs-gtk openssh unzip gvfs-mtp android-tools android-file-transfer android-udev libmtp fish starship nautilus udisks2 brightnessctl bluez bluez-utils qt5-wayland qt6-wayland pipewire wireplumber pipewire-pulse playerctl pavucontrol nm-connection-editor inter-font ttf-jetbrains-mono-nerd ttf-nerd-fonts-symbols noto-fonts-emoji papirus-icon-theme zed deno helium-browser-bin localsend-bin
 
 # Configs
 echo "Copying Configs"
@@ -49,7 +49,7 @@ sudo bash -c 'cat <<EOF > /etc/greetd/config.conf
 vt = 1
 
 [default_session]
-command = "/usr/bin/noctalia-greeter-session -- --session niri"
+command = "/usr/bin/noctalia-greeter-session -- --session hyprland"
 user = "greeter"
 EOF'
 

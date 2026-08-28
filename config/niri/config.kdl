@@ -1,8 +1,0 @@
-include "io.kdl"
-include "misc.kdl"
-include "binds.kdl"
-include "rules.kdl"
-include "noctalia.kdl"
-include "appearance.kdl"
-
-spawn-at-startup "noctalia"
