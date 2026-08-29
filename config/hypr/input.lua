@@ -52,11 +52,12 @@ hl.bind("SUPER + K",
 -- Screenshot
 hl.bind("Print",
    hl.dsp.exec_cmd(
-      "grim -g \"$(slurp)\" ~/Pictures/screenshot.png && wl-copy < ~/Pictures/Screenshots/$(ls -Art ~/Pictures | tail -n 1)"))
+      "grim -g \"$(slurp)\" ~/Pictures/Screenshots/screenshot.png && wl-copy < ~/Pictures/Screenshots/$(ls -Art ~/Pictures | tail -n 1)"))
 
 -- Volume Control
 hl.bind("XF86AudioRaiseVolume", hl.dsp.exec_cmd("noctalia msg volume-up"), { locked = true })
 hl.bind("XF86AudioLowerVolume", hl.dsp.exec_cmd("noctalia msg volume-down"), { locked = true })
+hl.bind("XF86AudioMute", hl.dsp.exec_cmd("noctalia msg volume-mute"))
 
 -- Brightness Control
 hl.bind("XF86MonBrightnessUp", hl.dsp.exec_cmd("noctalia msg brightness-up"), { locked = true })

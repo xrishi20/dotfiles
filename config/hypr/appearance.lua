@@ -4,7 +4,7 @@ hl.monitor({ output = "eDP-1", mode = "1920x1200@60", position = "2560x0", scale
 
 -- Assign Workspaces to Monitors
 for i = 1, 2 do
-   hl.workspace_rule({ workspace = i, monitor = "DP-3" })
+   hl.workspace_rule({ workspace = i, monitor = "DP-3", persistent = true })
 end
 
 for i = 3, 9 do
@@ -58,6 +58,7 @@ hl.config({
          size     = 3,
          passes   = 3,
          vibrancy = 0.125,
+         noise    = 0.05
       },
    },
 
@@ -74,7 +75,7 @@ hl.config({
    },
 })
 
--- Window Rules
+-- GTK Portal
 hl.window_rule({
    name = "fileManager",
    match = {
@@ -84,4 +85,23 @@ hl.window_rule({
    size = { "monitor_w * 0.5", "monitor_h * 0.5" },
    float = true,
    stay_focused = true
+})
+
+-- Noctalia Settings
+hl.window_rule({
+   match = { class = "dev.noctalia.Noctalia" },
+   float = true,
+   size = { "monitor_w * 0.6", "monitor_h * 0.7" },
+})
+
+-- Noctalia Blur
+hl.layer_rule({
+   name = "noctalia",
+   match = {
+      namespace = "^noctalia-(bar-.+|notification|dock|panel|attached-panel|osd|window-switcher)$",
+   },
+   no_anim = true,
+   ignore_alpha = 0.5,
+   blur = true,
+   blur_popups = true,
 })
