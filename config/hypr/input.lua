@@ -52,7 +52,7 @@ hl.bind("SUPER + K",
 -- Screenshot
 hl.bind("Print",
    hl.dsp.exec_cmd(
-      "grim -g \"$(slurp)\" ~/Pictures/Screenshots/screenshot.png && wl-copy < ~/Pictures/Screenshots/$(ls -Art ~/Pictures | tail -n 1)"))
+      "grim -g \"$(slurp)\" ~/Pictures/Screenshots/screenshot.png && wl-copy < ~/Pictures/Screenshots/screenshot.png"))
 
 -- Volume Control
 hl.bind("XF86AudioRaiseVolume", hl.dsp.exec_cmd("noctalia msg volume-up"), { locked = true })
