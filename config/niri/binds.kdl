@@ -22,8 +22,8 @@ binds {
 
     // Applications
     Mod+Return { spawn "kitty"; }
-    Mod+H      { spawn "librewolf"; }
-    Mod+Z      { spawn "zeditor"; }
+    Mod+T      { spawn "librewolf"; }
+    Mod+C      { spawn "zeditor"; }
     Mod+E      { spawn "nautilus"; }
     Mod+K      { spawn-sh "pastel format hex pick | wl-copy && noctalia msg notification-show \"Copied $(wl-paste)\""; }
 
@@ -132,7 +132,7 @@ binds {
     Mod+Shift+Equal { set-window-height "+10%"; }
 
     // Floating, Tiling, Centering
-    Mod+C       { center-column; }
+    Mod+H       { center-column; }
     Mod+G       { toggle-window-floating; }
     Mod+Ctrl+C  { center-visible-columns; }
     Mod+Shift+G { switch-focus-between-floating-and-tiling; }

@@ -139,11 +139,11 @@ show_location = false
     wallpaper_placement = "floating"
 
 [theme]
-builtin = "Tokyo-Night"
+builtin = "Noctalia"
 community_palette = "Vesper"
-mode = "dark"
-source = "community"
-wallpaper_scheme = "m3-fruit-salad"
+mode = "auto"
+source = "wallpaper"
+wallpaper_scheme = "m3-tonal-spot"
 
     [theme.templates]
     builtin_ids = [ "gtk3", "gtk4", "kcolorscheme", "kitty", "niri", "qt" ]
