@@ -33,7 +33,7 @@ window-rule {
 
 // Browser Default Width
 window-rule {
-  match app-id="librewolf"
+  match app-id="helium-browser|librewolf"
   open-maximized true
 }
 

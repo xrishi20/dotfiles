@@ -22,7 +22,7 @@ binds {
 
     // Applications
     Mod+Return { spawn "kitty"; }
-    Mod+T      { spawn "librewolf"; }
+    Mod+T      { spawn "helium-browser"; }
     Mod+C      { spawn "zeditor"; }
     Mod+E      { spawn "nautilus"; }
     Mod+K      { spawn-sh "pastel format hex pick | wl-copy && noctalia msg notification-show \"Copied $(wl-paste)\""; }
