@@ -6,7 +6,7 @@ binds {
     Mod+J     { spawn-sh "noctalia msg panel-toggle control-center"; }
 
     // System
-    Mod+Escape repeat=false { close-window; }
+    Alt+Escape repeat=false { close-window; }
     Mod+Tab repeat=false    { toggle-overview; }
     Mod+Shift+P             { power-off-monitors; }
     Mod+Shift+Delete        { spawn-sh "noctalia msg panel-toggle session"; }
